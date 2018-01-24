@@ -1,0 +1,3406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Reader version="3.0.2008.1122" language="Chinese-Simplified">
+<Menus>
+<menu id="10000">
+
+<popup id="|0" text="注解">
+<popup id="|0|0" text="设置状态(&amp;S)">
+<popup id="|0|0|0" text="审阅(&amp;R)">
+<menuitem id="10018" text="无(&amp;N)" />
+<menuitem id="10000" text="已接受(&amp;A)" />
+<menuitem id="10014" text="已拒绝(&amp;R)" />
+<menuitem id="10001" text="已取消(&amp;C)" />
+<menuitem id="10004" text="已完成(&amp;O)" />
+</popup>
+
+<popup id="|0|0|1" text="迁移(&amp;M)">
+<menuitem id="10010" text="无(&amp;N)" />
+<menuitem id="10011" text="未确认(&amp;O)" />
+<menuitem id="10005" text="已确认(&amp;C)" />
+</popup>
+
+</popup>
+
+<menuitem id="10020" text="使用勾形标记(&amp;M)" />
+<menuitem id="10015" text="移除勾形标记(&amp;V)" />
+<menuitem id="10012" text="打开弹出式注释(&amp;O)" />
+<menuitem id="10002" text="关闭弹出式注释(&amp;C)" />
+<menuitem id="10017" text="重置弹出式注释(&amp;R)" />
+<menuitem id="10006" text="删除(&amp;D)" />
+<menuitem id="10016" text="回复(&amp;Y)" />
+<menuitem id="10009" text="合并(&amp;E)" />
+<menuitem id="10007" text="翻转(&amp;F)" />
+<menuitem id="10008" text="组合(&amp;G)" />
+<menuitem id="10021" text="取消组合(&amp;U)" />
+<popup id="|0|17" text="对齐(&amp;A)">
+<menuitem id="10200" text="左对齐(&amp;L)" />
+<menuitem id="10201" text="右对齐(&amp;R)" />
+<menuitem id="10202" text="上对齐(&amp;T)" />
+<menuitem id="10203" text="下对齐(&amp;B)" />
+<menuitem id="10204" text="垂直对齐(&amp;V)" />
+<menuitem id="10205" text="水平对齐(&amp;H)" />
+</popup>
+
+<popup id="|0|18" text="居中(&amp;C)">
+<menuitem id="10206" text="垂直居中(&amp;V)" />
+<menuitem id="10207" text="水平居中(&amp;H)" />
+<menuitem id="10208" text="垂直和水平居中(&amp;B)" />
+</popup>
+
+<popup id="|0|19" text="均分排列(&amp;D)">
+<menuitem id="10209" text="垂直均分排列(&amp;V)" />
+<menuitem id="10210" text="水平均分排列(&amp;H)" />
+</popup>
+
+<popup id="|0|20" text="调整大小(&amp;S)">
+<menuitem id="10211" text="等高(&amp;H)" />
+<menuitem id="10212" text="等宽(&amp;W)" />
+<menuitem id="10213" text="垂直和水平居中(&amp;B)" />
+</popup>
+
+<menuitem id="10019" text="设为默认属性(&amp;T)" />
+<menuitem id="10013" text="打开属性 (&amp;P)..." />
+<menuitem id="10003" text="关闭属性(&amp;L)" />
+</popup>
+
+</menu>
+
+<menu id="5019">
+
+<popup id="|0" text="注释工具">
+<menuitem id="32772" text="复制(&amp;Y)\tCtrl+C" />
+<menuitem id="32774" text="全选(&amp;A)\tCtrl+A" />
+<menuitem id="32775" text="取消全选\tCtrl+Shift+A" />
+<menuitem id="32776" text="用高亮标记文本(&amp;L)\tCtrl+Shift+L" />
+<menuitem id="32780" text="用删除线标记文本(&amp;T)\tCtrl+Shift+T" />
+<menuitem id="32779" text="用下划线标记文本(&amp;U)\tCtrl+Shift+U" />
+<menuitem id="32781" text="用波浪线标记文本(&amp;Q)\tCtrl+Shift+Q" />
+<menuitem id="32777" text="用替换标记文本(&amp;R)\tCtrl+Shift+R" />
+<menuitem id="32788" text="添加书签(&amp;M)\tCtrl+Shift+B" />
+</popup>
+
+</menu>
+
+<menu id="6050">
+
+<popup id="|0" text="绘图">
+<menuitem id="6051" text="完成绘划标注" />
+<menuitem id="6052" text="取消绘划标注" />
+</popup>
+
+</menu>
+
+<menu id="15538">
+
+<menuitem id="65535" text="注释" />
+</menu>
+
+<menu id="15021">
+
+<popup id="|0" text="选项">
+<menuitem id="15027" text="全字匹配" />
+<menuitem id="15032" text="区分大小写" />
+<menuitem id="15036" text="打开高级搜索..." />
+</popup>
+
+</menu>
+
+<menu id="9075">
+
+<popup id="|0" text="缩放比例">
+<menuitem id="9076" text="200%" />
+<menuitem id="9077" text="150%" />
+<menuitem id="9078" text="125%"/>
+<menuitem id="9079" text="100%"/>
+<menuitem id="9080" text="75%" />
+<menuitem id="9081" text="50%"/>
+<menuitem id="9082" text="更多..." />
+</popup>
+
+</menu>
+
+<menu id="9115">
+
+<popup id="|0" text="自定义">
+<menuitem id="9116" text="设置..." />
+</popup>
+
+</menu>
+
+<menu id="128">
+<popup id="&amp;File" text="文件(&amp;F)">
+<menuitem id="57601" text="打开(&amp;O)...\tCtrl+O" />
+<menuitem id="33111" text="转换到 PDF(&amp;V)..." />
+<menuitem id="57602" text="关闭(&amp;C)\tCtrl+W" />
+<menuitem id="57603" text="保存\tCtrl+S" />
+<menuitem id="32932" text="另存为(&amp;A)...\tCtrl+Shift+S" />
+<menuitem id="33055" text="附加到电子邮件(&amp;L)..." />
+<menuitem id="57607" text="打印(&amp;P)...\tCtrl+P" />
+<menuitem id="57606" text="打印设置(&amp;R)..." />
+<menuitem id="57616" text="最近打开的文件" />
+<menuitem id="32776" text="属性(&amp;T)..." />
+<menuitem id="57665" text="退出(&amp;X)\tCtrl+Q" />
+</popup>
+
+<popup id="&amp;Edit" text="编辑(&amp;E)">
+<menuitem id="33112" text="编辑内容(&amp;M)..." />
+<menuitem id="57634" text="复制(&amp;C)\tCtrl+C" />
+<menuitem id="57636" text="查找文本(&amp;F)...\tCtrl+F" />
+<menuitem id="32903" text="查找下一个(&amp;N)\tF3" />
+<menuitem id="33170" text="高级搜索...\tCtrl+Shift+F" />
+<menuitem id="32985" text="选项(&amp;P)...\tCtrl+K" />
+</popup>
+
+<popup id="&amp;View" text="视图(&amp;V)">
+<menuitem id="32783" text="全屏(&amp;F)\tF11" />
+<menuitem id="32787" text="放大(&amp;I)\tCtrl+Num +" />
+<menuitem id="32788" text="缩小(&amp;O)\tCtrl+Num -" />
+<menuitem id="32789" text="缩放至(&amp;T)...\tCtrl+M" />
+<menuitem id="32790" text="实际大小(&amp;C)\tCtrl+1" />
+<menuitem id="32791" text="适合页面(&amp;P)\tCtrl+2" />
+<menuitem id="32792" text="适合宽度(&amp;W)\tCtrl+3" />
+<popup id="Page La&amp;yout" text="页面布局(&amp;Y)">
+<menuitem id="32925" text="单页(&amp;G)" />
+<menuitem id="32926" text="连续(&amp;C)" />
+<menuitem id="32938" text="对开(&amp;F)" />
+<menuitem id="32939" text="连续对开(&amp;T)" />
+<menuitem id="33172" text="对开时单独显示封面(&amp;V)" />
+</popup>
+
+<popup id="Rotate &amp;View" text="旋转视图(&amp;V)">
+<menuitem id="32935" text="顺时针(&amp;C)\tCtrl+Shift+Plus" />
+<menuitem id="32941" text="逆时针(&amp;W)\tCtrl+Shift+Minus" />
+</popup>
+
+<menuitem id="32942" text="反转视图(&amp;R)" />
+<menuitem id="33167" text="标尺(&amp;E)\tCtrl+R" />
+<menuitem id="33168" text="参考线(&amp;G)" />
+<menuitem id="32930" text="广告(&amp;A)" />
+<menuitem id="33134" text="隐藏文档信息栏(&amp;M)" />
+<popup id="Too&amp;lbars" text="工具栏(&amp;L)">
+<menuitem id="33043" text="文件(&amp;F)" />
+<menuitem id="33044" text="导航(&amp;V)" />
+<menuitem id="33045" text="旋转视图(&amp;W)" />
+<menuitem id="33046" text="缩放(&amp;Z)" />
+<menuitem id="33042" text="基本工具(&amp;S)" />
+<menuitem id="33065" text="文本查看器(&amp;X)" />
+<menuitem id="33048" text="默认工具栏(&amp;D)\tAlt+F8" />
+<menuitem id="33053" text="隐藏工具栏\tF8" />
+</popup>
+
+<popup id="&amp;Navigation Panels" text="导航面板(&amp;N)">
+<menuitem id="33179" text="显示导航面板按钮(&amp;H)\tF4" />
+<menuitem id="33181" text="停靠所有导航面板(&amp;K)" />
+</popup>
+
+<menuitem id="32898" text="菜单栏(&amp;M)\tF9" />
+<menuitem id="59393" text="状态栏(&amp;S)" />
+<menuitem id="33171" text="自动滚屏(&amp;U)\t" />
+</popup>
+
+<popup id="&amp;Language" text="语言(&amp;L)">
+<menuitem id="40801" text="默认(&amp;D)" />
+</popup>
+
+<popup id="&amp;Document" text="文档(&amp;D)">
+<menuitem id="32777" text="第一页(&amp;F)\tHome" />
+<menuitem id="32778" text="上一页(&amp;P)\tLeft Arrow" />
+<menuitem id="32779" text="下一页(&amp;N)\tRight Arrow" />
+<menuitem id="32780" text="最后一页(&amp;L)\tEnd" />
+<menuitem id="33097" text="前一视图(&amp;V)\tAlt+Left Arrow" />
+<menuitem id="33098" text="后一视图(&amp;W)\tAlt+Right Arrow" />
+<menuitem id="32781" text="跳至页面(&amp;G)...\tCtrl+Shift+N" />
+</popup>
+
+<popup id="&amp;Tools" text="工具(&amp;T)">
+<menuitem id="32784" text="手形工具(&amp;H)\tAlt+3" />
+<menuitem id="32977" text="文本选择工具(&amp;L)\tAlt+6" />
+<menuitem id="32987" text="快照工具(&amp;S)\tAlt+7" />
+<menuitem id="32793" text="文本查看器(&amp;V)\tAlt+9" />
+<menuitem id="32797" text="Funcy(&amp;F)\tAlt+0" />
+<popup id="Zoom Tools" text="缩放工具">
+<menuitem id="32785" text="缩小工具(&amp;O)\tAlt+4" />
+<menuitem id="32786" text="放大工具(&amp;I)\tAlt+5" />
+</popup>
+
+</popup>
+
+<popup id="&amp;Advanced" text="高级(&amp;A)">
+<popup id="&amp;Comments Utilities" text="注释实用工具(&amp;C)">
+<popup id="&amp;Export comments data" text="导出注释数据(&amp;E)">
+<menuitem id="33137" text="到数据文件(FDF) (&amp;F)..." />
+<menuitem id="33138" text="到电子邮件(&amp;E)..." />
+</popup>
+
+<menuitem id="33139" text="导入注释 (&amp;I)..." />
+</popup>
+
+<menuitem id="33118" text="JavaScript 控制台(&amp;C)..." />
+<menuitem id="33117" text="文档级 Javascript(&amp;D)..." />
+<popup id="&amp;Form Utilities" text="表单实用工具(&amp;F)">
+<popup id="&amp;Export form data" text="导出表单数据(&amp;E)">
+<menuitem id="33132" text="到表单数据文件(FDF)(&amp;F)..." />
+<menuitem id="33133" text="到电子邮件(&amp;E)..." />
+</popup>
+
+<menuitem id="33120" text="导入表单数据(&amp;I)..." />
+<menuitem id="33121" text="重置表单(&amp;R)..." />
+<menuitem id="33122" text="设置计算次序 ..." />
+<menuitem id="33135" text="总是隐藏文档信息栏(&amp;H)" />
+</popup>
+
+</popup>
+
+<popup id="&amp;Window" text="窗口(&amp;W)">
+<menuitem id="57648" text="新建(&amp;N)" />
+<menuitem id="57650" text="层叠(&amp;C)" />
+<menuitem id="57651" text="平铺(&amp;T)" />
+<menuitem id="57649" text="排列图标(&amp;A)" />
+<menuitem id="33169" text="关闭(&amp;O)" />
+<menuitem id="32795" text="关闭全部(&amp;L)\tCtrl+Shift+W" />
+</popup>
+
+<popup id="&amp;Help" text="帮助(&amp;H)">
+<menuitem id="32969" text="设为默认的 PDF 阅读器(&amp;S)" />
+<menuitem id="33141" text="注册(&amp;L)" />
+<menuitem id="33116" text="检查更新(&amp;C)..." />
+<menuitem id="33136" text="安装更新(&amp;I)..." />
+<menuitem id="33153" text="移除试用标记(&amp;R)" />
+<menuitem id="33191" text="用户手册(&amp;U)" />
+<menuitem id="33192" text="命令行帮助(&amp;O)..." />
+<menuitem id="33174" text="免费体验(&amp;F)" />
+<menuitem id="33146" text="在线技术支持(&amp;T)" />
+<menuitem id="32774" text="福昕软件主页(&amp;H)" />
+<menuitem id="57664" text="关于福昕阅读器(&amp;A)..."/>
+</popup>
+
+</menu>
+
+<menu id="129">
+<popup id="&amp;File" text="文件(&amp;F)">
+<menuitem id="57601" text="打开(&amp;O)...\tCtrl+O" />
+<menuitem id="33111" text="转换到PDF(&amp;V)..." />
+<menuitem id="57602" text="关闭(&amp;C)\tCtrl+W" />
+<menuitem id="57603" text="保存\tCtrl+S" />
+<menuitem id="32932" text="另存为(&amp;A)...\tCtrl+Shift+S" />
+<menuitem id="33055" text="Email(&amp;L)..." />
+<menuitem id="57607" text="打印(&amp;P)...\tCtrl+P" />
+<menuitem id="57606" text="打印设置(&amp;R)..." />
+<menuitem id="57616" text="最近打开的文件" />
+<menuitem id="32776" text="属性(&amp;T)..." />
+<menuitem id="57665" text="退出(&amp;X)\tCtrl+Q" />
+</popup>
+
+<popup id="&amp;Edit" text="编辑(&amp;E)">
+<menuitem id="33112" text="编辑内容(&amp;M)..." />
+<menuitem id="57634" text="复制(&amp;C)\tCtrl+C" />
+<menuitem id="57636" text="查找文本(&amp;F)...\tCtrl+F" />
+<menuitem id="32903" text="查找下一个(&amp;N)\tF3" />
+<menuitem id="33170" text="高级搜索...\tCtrl+Shift+F" />
+<menuitem id="32985" text="选项(&amp;P)...\tCtrl+K" />
+</popup>
+
+<popup id="&amp;View" text="视图(&amp;V)">
+<menuitem id="32783" text="全屏(&amp;F)\tF11" />
+<menuitem id="32787" text="放大(&amp;I)\tCtrl+Num +" />
+<menuitem id="32788" text="缩小(&amp;O)\tCtrl+Num -" />
+<menuitem id="32789" text="缩放至(&amp;T)...\tCtrl+M" />
+<menuitem id="32790" text="实际大小(&amp;C)\tCtrl+1" />
+<menuitem id="32791" text="适合页面(&amp;P)\tCtrl+2" />
+<menuitem id="32792" text="适合宽度(&amp;W)\tCtrl+3" />
+<popup id="Page La&amp;yout" text="页面布局(&amp;Y)">
+<menuitem id="32925" text="单页(&amp;G)" />
+<menuitem id="32926" text="连续(&amp;C)" />
+<menuitem id="32938" text="对开(&amp;F)" />
+<menuitem id="32939" text="连续对开(&amp;T)" />
+<menuitem id="33172" text="对开时单独显示封面(&amp;V)" />
+</popup>
+
+<popup id="Rotate &amp;View" text="旋转视图(&amp;V)">
+<menuitem id="32935" text="顺时针(&amp;C)\tCtrl+Shift+Plus" />
+<menuitem id="32941" text="逆时针(&amp;W)\tCtrl+Shift+Minus" />
+</popup>
+
+<menuitem id="32942" text="反转视图(&amp;R)" />
+<menuitem id="33167" text="标尺(&amp;E)\tCtrl+R" />
+<menuitem id="33168" text="参考线(&amp;G)" />
+<menuitem id="32930" text="广告(&amp;A)" />
+<menuitem id="33134" text="隐藏文档信息栏(&amp;M)" />
+<popup id="Too&amp;lbars" text="工具栏(&amp;L)">
+<menuitem id="33043" text="文件(&amp;F)" />
+<menuitem id="33044" text="导航(&amp;V)" />
+<menuitem id="33045" text="旋转视图(&amp;W)" />
+<menuitem id="33046" text="缩放(&amp;Z)" />
+<menuitem id="33042" text="基本工具(&amp;S)" />
+<menuitem id="33104" text="帮助(&amp;H)" />
+<menuitem id="33065" text="文本查看器(&amp;X)" />
+<menuitem id="33048" text="重置工具栏(&amp;R)\tAlt+F8" />
+<menuitem id="33049" text="停靠全部工具栏(&amp;D)\tCtrl+F8" />
+<menuitem id="33053" text="隐藏工具栏\tF8" />
+</popup>
+
+<popup id="&amp;Navigation Panels" text="导航面板(&amp;N)">
+<menuitem id="33179" text="显示导航面板(&amp;H)\tF4" />
+<menuitem id="33181" text="停靠所有导航面板(&amp;K)" />
+</popup>
+
+<menuitem id="32898" text="菜单栏(&amp;M)\tF9" />
+<menuitem id="59393" text="状态栏(&amp;S)" />
+<menuitem id="33171" text="自动滚屏(&amp;U)\t" />
+</popup>
+
+<popup id="&amp;Language" text="语言(&amp;L)">
+<menuitem id="40801" text="默认(&amp;D)" />
+</popup>
+
+<popup id="&amp;Document" text="文档(&amp;D)">
+<menuitem id="32777" text="第一页(&amp;F)\tHome" />
+<menuitem id="32778" text="上一页(&amp;P)\tLeft Arrow" />
+<menuitem id="32779" text="下一页(&amp;N)\tRight Arrow" />
+<menuitem id="32780" text="最后一页(&amp;L)\tEnd" />
+<menuitem id="33097" text="前一视图(&amp;V)\tAlt+Left Arrow" />
+<menuitem id="33098" text="后一视图(&amp;W)\tAlt+Right Arrow" />
+<menuitem id="32781" text="跳至页面(&amp;G)...\tCtrl+Shift+N" />
+</popup>
+
+<popup id="&amp;Tools" text="工具(&amp;T)">
+<menuitem id="32784" text="手形工具(&amp;H)\tAlt+3" />
+<menuitem id="32977" text="文本选择工具(&amp;L)\tAlt+6" />
+<menuitem id="32987" text="快照工具(&amp;S)\tAlt+7" />
+<menuitem id="32793" text="文本查看器(&amp;V)\tAlt+9" />
+<menuitem id="32797" text="Funcy(&amp;F)\tAlt+0" />
+<popup id="Zoom Tools" text="缩放工具">
+<menuitem id="32785" text="缩小工具(&amp;O)\tAlt+4" />
+<menuitem id="32786" text="放大工具(&amp;I)\tAlt+5" />
+</popup>
+
+</popup>
+
+<popup id="&amp;Advanced" text="高级(&amp;A)">
+<popup id="&amp;Comments Utilities" text="注释实用工具(&amp;C)">
+<popup id="&amp;Export comments data" text="导出注释数据(&amp;E)">
+<menuitem id="33137" text="到表单数据文件(FDF)(&amp;F)..." />
+<menuitem id="33138" text="到电子邮件(&amp;E)..." />
+</popup>
+
+<menuitem id="33139" text="导入注释数据(&amp;I)..." />
+</popup>
+
+<menuitem id="33118" text="JavaScript 控制台(&amp;C)..." />
+<menuitem id="33117" text="文档级 Javascript..." />
+<popup id="&amp;Form Utilities" text="表单实用工具(&amp;F)">
+<popup id="&amp;Export form data" text="导出表单数据(&amp;E)">
+<menuitem id="33132" text="到表单数据文件(FDF)(&amp;F)..." />
+<menuitem id="33133" text="到电子邮件(&amp;E)..." />
+</popup>
+
+<menuitem id="33120" text="导入表单数据(&amp;I)..." />
+<menuitem id="33121" text="重置表单(&amp;R)..." />
+<menuitem id="33122" text="设置计算次序..." />
+<menuitem id="33135" text="总是隐藏文档信息栏(&amp;H)" />
+</popup>
+
+</popup>
+
+<popup id="&amp;Window" text="窗口(&amp;W)">
+<menuitem id="57648" text="新建(&amp;N)" />
+<menuitem id="57650" text="层叠(&amp;C)" />
+<menuitem id="57651" text="平铺(&amp;T)" />
+<menuitem id="57649" text="排列图标(&amp;A)" />
+<menuitem id="33169" text="关闭(&amp;O)" />
+<menuitem id="32795" text="关闭全部(&amp;L)\tCtrl+Shift+W" />
+</popup>
+
+<popup id="&amp;Help" text="帮助(&amp;H)">
+<menuitem id="32969" text="设为默认的PDF阅读器(&amp;S)" />
+<menuitem id="33141" text="注册(&amp;L)" />
+<menuitem id="33116" text="检查更新(&amp;C)..." />
+<menuitem id="33136" text="安装更新(&amp;I)..." />
+<menuitem id="33153" text="移除试用标记(&amp;R)" />
+<menuitem id="33191" text="用户手册(&amp;U)" />
+<menuitem id="33192" text="命令行帮助(&amp;O)..." />
+<menuitem id="33174" text="免费体验(&amp;F)" />
+<menuitem id="33146" text="在线技术支持(&amp;T)" />
+<menuitem id="32774" text="福昕软件主页(&amp;H)" />
+<menuitem id="57664" text="关于福昕阅读器(&amp;A)..." />
+</popup>
+
+</menu>
+
+<menu id="130">
+
+<popup id="|0" text="文件(&amp;F)">
+<menuitem id="57601" text="打开(&amp;O)...\tCtrl+O" />
+<popup id="|0|1" text="创建PDF">
+<menuitem id="33111" text="转换到PDF(&amp;V)..." />
+<menuitem id="33187" text="创建空白页(&amp;B)" />
+</popup>
+
+<menuitem id="57602" text="关闭(&amp;C)\tCtrl+W" />
+<menuitem id="57603" text="保存\tCtrl+S" />
+<menuitem id="32932" text="另存为(&amp;A)...\tCtrl+Shift+S" />
+<menuitem id="33055" text="附加到电子邮件(&amp;L)..." />
+<menuitem id="57607" text="打印(&amp;P)...\tCtrl+P" />
+<menuitem id="57606" text="打印设置(&amp;R)..." />
+<menuitem id="57616" text="最近打开的文件" />
+<menuitem id="32776" text="属性(&amp;T)..." />
+<menuitem id="57665" text="退出(&amp;X)\tCtrl+Q" />
+</popup>
+
+<popup id="|1" text="编辑(&amp;E)">
+<menuitem id="33112" text="编辑内容(&amp;M)..." />
+<menuitem id="57634" text="复制(&amp;C)\tCtrl+C" />
+<menuitem id="57636" text="查找文本(&amp;F)...\tCtrl+F" />
+<menuitem id="32903" text="查找下一个(&amp;N)\tF3" />
+<menuitem id="33170" text="搜索...\tShift+Ctrl+F" />
+<menuitem id="32985" text="选项(&amp;P)...\tCtrl+K" />
+</popup>
+
+<popup id="|2" text="视图(&amp;V)">
+<menuitem id="32782" text="书签(&amp;B)\tAlt+1" />
+<menuitem id="32783" text="全屏显示(&amp;F)\tAlt+2" />
+<menuitem id="32787" text="放大(&amp;I)\tCtrl+Num +" />
+<menuitem id="32788" text="缩小(&amp;O)\tCtrl+Num -" />
+<menuitem id="32789" text="缩放至(&amp;T)...\tCtrl+M" />
+<menuitem id="32790" text="实际大小(&amp;A)\tCtrl+1" />
+<menuitem id="32791" text="适合页面(&amp;P)\tCtrl+2" />
+<menuitem id="32792" text="适合宽度(&amp;W)\tCtrl+3" />
+<popup id="|2|12" text="页面布局(&amp;Y)">
+<menuitem id="32925" text="单页(&amp;G)" />
+<menuitem id="32926" text="连续(&amp;C)" />
+<menuitem id="32938" text="对开(&amp;F)" />
+<menuitem id="32939" text="连续对开(&amp;T)" />
+<menuitem id="33172" text="对开时单独显示封面(&amp;V)" />
+</popup>
+
+<popup id="|2|14" text="旋转视图(&amp;V)">
+<menuitem id="32935" text="顺时针(&amp;C)\tShift+Ctrl+Plus" />
+<menuitem id="32941" text="逆时针(&amp;W)\tShift+Ctrl+Minus" />
+</popup>
+
+<menuitem id="32942" text="反转视图(&amp;R)" />
+<menuitem id="33167" text="标尺(&amp;E)\tCtrl+R" />
+<menuitem id="33168" text="参考线(&amp;G)" />
+<menuitem id="32930" text="广告(&amp;A)" />
+<menuitem id="33134" text="隐藏文档信息栏(&amp;M)" />
+<popup id="|2|25" text="工具栏(&amp;T)">
+<menuitem id="33043" text="文件(&amp;F)" />
+<menuitem id="33044" text="导航(&amp;V)" />
+<menuitem id="33045" text="旋转视图(&amp;W)" />
+<menuitem id="33046" text="缩放(&amp;Z)" />
+<menuitem id="33042" text="基本工具(&amp;S)" />
+<menuitem id="33104" text="帮助(&amp;H)" />
+<menuitem id="33065" text="文本查看器(&amp;X)" />
+<menuitem id="33048" text="重置工具栏(&amp;R)\tAlt+F8" />
+<menuitem id="33049" text="停靠全部工具栏(&amp;D)\tCtrl+F8" />
+<menuitem id="33053" text="隐藏工具栏\tF8" />
+</popup>
+
+<menuitem id="32898" text="菜单栏(&amp;M)" />
+<menuitem id="59393" text="状态栏(&amp;S)" />
+<menuitem id="33171" text="自动滚动(&amp;U)\t\tShift+Ctrl+H" />
+</popup>
+
+<popup id="|3" text="语言(&amp;L)">
+<menuitem id="40801" text="默认(&amp;D)" />
+</popup>
+
+<popup id="|4" text="文档(&amp;D)">
+<menuitem id="32777" text="第一页(&amp;F)\tHome" />
+<menuitem id="32778" text="上一页(&amp;P)\tLeft Arrow" />
+<menuitem id="32779" text="下一页(&amp;N)\tRight Arrow" />
+<menuitem id="32780" text="最后一页(&amp;L)\tEnd" />
+<menuitem id="33097" text="前一视图(&amp;V)\tAlt+Left Arrow" />
+<menuitem id="33098" text="后一视图(&amp;W)\tAlt+Right Arrow" />
+<menuitem id="32781" text="跳至页面(&amp;G)...\tShift+Ctrl+N" />
+</popup>
+
+<popup id="|5" text="工具(&amp;T)">
+<menuitem id="32784" text="手形工具(&amp;H)\tAlt+3" />
+<menuitem id="32977" text="文本选择工具(&amp;L)\tAlt+6" />
+<menuitem id="32987" text="快照工具(&amp;S)\tAlt+7" />
+<menuitem id="32793" text="文本查看器(&amp;V)\tAlt+9" />
+<popup id="|5|6" text="缩放工具">
+<menuitem id="32785" text="缩小工具(&amp;O)\tAlt+4" />
+<menuitem id="32786" text="放大工具(&amp;I)\tAlt+5" />
+</popup>
+
+</popup>
+
+<popup id="|6" text="高级(&amp;A)">
+<popup id="|6|0" text="注释实用工具(&amp;C)">
+<popup id="|6|0|0" text="导出注释数据(&amp;E)">
+<menuitem id="33137" text="到数据文件 (FDF) (&amp;F)..." />
+<menuitem id="33138" text="到电子邮件(&amp;E)..." />
+</popup>
+
+<menuitem id="33139" text="导入注释数据(&amp;I)..." />
+</popup>
+
+<menuitem id="33118" text="JavaScript 控制台(&amp;C)..." />
+<menuitem id="33117" text="文档级 Javascript..." />
+<popup id="|6|5" text="表单实用工具(&amp;F)">
+<popup id="|6|5|0" text="导出表单数据(&amp;E)">
+<menuitem id="33132" text="到数据文件 (FDF) (&amp;F)..." />
+<menuitem id="33133" text="到电子邮件(&amp;E)..." />
+</popup>
+
+<menuitem id="33120" text="导入表单数据(&amp;I)..." />
+<menuitem id="33121" text="重置表单(&amp;R)..." />
+<menuitem id="33122" text="设置计算次序..." />
+<menuitem id="33135" text="总是隐藏文档信息栏(&amp;H)" />
+</popup>
+
+</popup>
+
+<popup id="|7" text="窗口(&amp;W)">
+<menuitem id="57648" text="新建(&amp;N)" />
+<menuitem id="57650" text="层叠(&amp;C)" />
+<menuitem id="57651" text="平铺(&amp;T)" />
+<menuitem id="57649" text="排列图标(&amp;A)" />
+<menuitem id="33169" text="关闭(&amp;O)" />
+<menuitem id="32795" text="关闭全部(&amp;L)\tCtrl+Shift+W" />
+</popup>
+
+<popup id="|8" text="帮助(&amp;H)">
+<menuitem id="32969" text="设为默认的 PDF 阅读器(&amp;S)" />
+<menuitem id="33141" text="注册(&amp;L)" />
+<menuitem id="33116" text="检查更新(&amp;C)..." />
+<menuitem id="33136" text="安装更新(&amp;I)..." />
+<menuitem id="33153" text="移除试用标记(&amp;R)" />
+<menuitem id="33174" text="免费体验(&amp;F)" />
+<menuitem id="33146" text="在线技术支持(&amp;T)" />
+<menuitem id="32774" text="福昕软件主页(&amp;H)" />
+<menuitem id="57664" text="关于福昕阅读器(&amp;A)..." />
+</popup>
+
+</menu>
+
+<menu id="159">
+
+<popup id="|0" text="Bars">
+<menuitem id="33043" text="文件(&amp;F)" />
+<menuitem id="33044" text="导航(&amp;V)" />
+<menuitem id="33045" text="旋转视图(&amp;W)" />
+<menuitem id="33046" text="缩放(&amp;Z)" />
+<menuitem id="33042" text="基本工具(&amp;C)" />
+<menuitem id="33065" text="文本查看器(&amp;X)" />
+<menuitem id="33048" text="默认工具栏(&amp;D)\tAlt+F8" />
+<menuitem id="33053" text="隐藏工具栏		F8\tF8" />
+<menuitem id="32930" text="广告(&amp;A)" />
+<menuitem id="33134" text="隐藏文档信息栏(&amp;G)" />
+<menuitem id="32898" text="菜单栏(&amp;M)" />
+<menuitem id="59393" text="状态栏(&amp;S)" />
+<menuitem id="33175" text="更多工具(&amp;M)..." />
+</popup>
+
+</menu>
+
+<menu id="160">
+
+<popup id="|0" text="放大">
+<menuitem id="33152" text="6400%" />
+<menuitem id="33151" text="3200%" />
+<menuitem id="32865" text="1600%"/>
+<menuitem id="32866" text="800%"/>
+<menuitem id="32867" text="400%"/>
+<menuitem id="32868" text="200%"/>
+<menuitem id="32869" text="150%"/>
+<menuitem id="32870" text="125%"/>
+<menuitem id="32871" text="100%"/>
+</popup>
+
+</menu>
+
+<menu id="161">
+
+<popup id="|0" text="缩小">
+<menuitem id="32871" text="100%"/>
+<menuitem id="33148" text="75%" />
+<menuitem id="33149" text="66.67%" />
+<menuitem id="32873" text="50%"/>
+<menuitem id="33150" text="33.33%" />
+<menuitem id="32874" text="25%"/>
+<menuitem id="32875" text="12.5%"/>
+<menuitem id="32876" text="8.33%"/>
+</popup>
+
+</menu>
+
+<menu id="163">
+
+<popup id="|0" text="视图(&amp;V)">
+<menuitem id="32783" text="全屏(&amp;F)\tF11" />
+<menuitem id="32787" text="放大(&amp;I)\tCtrl+Num +" />
+<menuitem id="32788" text="缩小(&amp;O)\tCtrl+Num -" />
+<menuitem id="32790" text="实际大小(&amp;A)\tCtrl+1" />
+<menuitem id="32791" text="适合页面(&amp;P)\tCtrl+2" />
+<menuitem id="32792" text="适合宽度(&amp;W)\tCtrl+3" />
+<menuitem id="32935" text="顺时针(&amp;C)\tCtrl+Shift+Plus" />
+<menuitem id="32942" text="反转视图(&amp;R)" />
+<menuitem id="33167" text="标尺(&amp;E)\tCtrl+R" />
+<menuitem id="33168" text="参考线(&amp;S)" />
+<menuitem id="33179" text="显示导航面板按钮(&amp;H)\tF4" />
+</popup>
+
+</menu>
+
+<menu id="164">
+
+<popup id="|0" text="帮助">
+<menuitem id="32969" text="设置为默认的 PDF 阅读器(&amp;S)" />
+<menuitem id="33141" text="注册" />
+<menuitem id="33116" text="检查更新..." />
+<menuitem id="33146" text="在线技术支持(&amp;T)" />
+<menuitem id="32774" text="福昕软件主页(&amp;H)" />
+<menuitem id="57664" text="关于福昕阅读器(&amp;A)..." />
+</popup>
+
+</menu>
+
+<menu id="205">
+
+<popup id="|0" text="文件(&amp;F)">
+<menuitem id="57601" text="打开(&amp;O)...\tCtrl+O" />
+<menuitem id="57602" text="关闭(&amp;C)\tCtrl+W" />
+<menuitem id="57603" text="保存\tCtrl+S" />
+<menuitem id="32932" text="另存为(&amp;A)...\tCtrl+Shift+S" />
+<menuitem id="57607" text="打印(&amp;P)...\tCtrl+P" />
+<menuitem id="57606" text="打印设置(&amp;R)..." />
+<menuitem id="57616" text="最近打开的文件" />
+<menuitem id="32776" text="属性(&amp;T)..." />
+<menuitem id="57665" text="退出(&amp;X)\tCtrl+Q" />
+</popup>
+
+<popup id="|1" text="编辑(&amp;E)">
+<menuitem id="57634" text="复制(&amp;C)\tCtrl+C" />
+<menuitem id="57636" text="查找文本(&amp;F)...\tCtrl+F" />
+<menuitem id="32903" text="查找下一个(&amp;N)\tF3" />
+<menuitem id="33170" text="搜索...\tShift+Ctrl+F" />
+<menuitem id="32985" text="选项(&amp;P)...\tCtrl+K" />
+</popup>
+
+<popup id="|2" text="视图(&amp;V)">
+<menuitem id="32782" text="书签(&amp;B)\tAlt+1" />
+<menuitem id="32783" text="全屏显示(&amp;F)\tAlt+2" />
+<menuitem id="32787" text="放大(&amp;I)\tCtrl+Num +" />
+<menuitem id="32788" text="缩小(&amp;O)\tCtrl+Num -" />
+<menuitem id="32789" text="缩放至(&amp;T)...\tCtrl+M" />
+<menuitem id="32790" text="实际大小(&amp;A)\tCtrl+1" />
+<menuitem id="32791" text="适合页面(&amp;P)\tCtrl+2" />
+<menuitem id="32792" text="适合宽度(&amp;W)\tCtrl+3" />
+<popup id="|2|12" text="页面布局(&amp;Y)">
+<menuitem id="32925" text="单页(&amp;G)" />
+<menuitem id="32926" text="连续(&amp;C)" />
+<menuitem id="32938" text="对开(&amp;F)" />
+<menuitem id="32939" text="连续对开(&amp;T)" />
+</popup>
+
+<popup id="|2|14" text="旋转视图(&amp;V)">
+<menuitem id="32935" text="顺时针(&amp;C)\tCtrl+Shift+Plus" />
+<menuitem id="32941" text="逆时针(&amp;W)\tCtrl+Shift+Minus" />
+</popup>
+
+<menuitem id="32942" text="页面对调(&amp;R)" />
+<menuitem id="32930" text="广告(&amp;A)" />
+<popup id="|2|20" text="工具栏(&amp;T)">
+<menuitem id="33043" text="文件(&amp;F)" />
+<menuitem id="33044" text="导航(&amp;V)" />
+<menuitem id="33045" text="旋转视图(&amp;W)" />
+<menuitem id="33046" text="缩放(&amp;Z)" />
+<menuitem id="33042" text="基本工具(&amp;S)" />
+<menuitem id="33104" text="帮助(&amp;H)" />
+<menuitem id="33065" text="文本查看器(&amp;X)" />
+<menuitem id="33048" text="重置工具栏(&amp;R)\tAlt+F8" />
+<menuitem id="33049" text="锁定所有工具栏(&amp;D)\tCtrl+F8" />
+<menuitem id="33053" text="隐藏工具栏	F8\tF8" />
+</popup>
+
+<popup id="|2|21" text="导航栏(&amp;N)">
+<menuitem id="33179" text="显示导航栏(&amp;H)\tF4" />
+<menuitem id="33180" text="面板复位" />
+<menuitem id="33181" text="锁定工具条(&amp;K)" />
+</popup>
+
+<menuitem id="32898" text="菜单栏(&amp;M)" />
+<menuitem id="59393" text="状态栏(&amp;S)" />
+</popup>
+
+<popup id="|3" text="文档(&amp;D)">
+<menuitem id="32777" text="第一页(&amp;F)\tHome" />
+<menuitem id="32778" text="上一页(&amp;P)\tLeft Arrow" />
+<menuitem id="32779" text="下一页(&amp;N)\tRight Arrow" />
+<menuitem id="32780" text="最后一页(&amp;L)\tEnd" />
+<menuitem id="33097" text="前一视图(&amp;V)\tAlt+Left Arrow" />
+<menuitem id="33098" text="后一视图(&amp;W)\tAlt+Right Arrow" />
+<menuitem id="32781" text="跳至页面(&amp;G)...\tCtrl+Shift+N" />
+</popup>
+
+<popup id="|4" text="工具(&amp;T)">
+<menuitem id="32784" text="手形工具(&amp;H)\tAlt+3" />
+<menuitem id="32785" text="缩小工具(Zoom &amp;O)(&amp;O)\tAlt+4" />
+<menuitem id="32786" text="放大工具(Zoom &amp;I)(&amp;I)\tAlt+5" />
+<menuitem id="32977" text="文本选择工具(&amp;L)\tAlt+6" />
+<menuitem id="32987" text="快照工具(&amp;S)\tAlt+7" />
+<menuitem id="32793" text="文本查看器(&amp;V)\tAlt+9" />
+</popup>
+
+<popup id="|5" text="窗口(&amp;W)">
+<menuitem id="57648" text="新建(&amp;N)" />
+<menuitem id="57650" text="层叠(&amp;C)" />
+<menuitem id="57651" text="平铺(&amp;T)" />
+<menuitem id="57649" text="排列图标(&amp;A)" />
+<menuitem id="33169" text="关闭(&amp;O)" />
+<menuitem id="32795" text="关闭全部(&amp;L)\tCtrl+Shift+W" />
+</popup>
+
+<popup id="|6" text="帮助(&amp;H)">
+<menuitem id="32969" text="设为默认的 PDF 阅读器(&amp;S)" />
+<menuitem id="32774" text="福昕软件主页(&amp;H)" />
+<menuitem id="57664" text="关于福昕阅读器(&amp;A)..." />
+</popup>
+
+</menu>
+
+<menu id="209">
+
+<popup id="|0" text="文件(&amp;F)">
+<menuitem id="57601" text="打开(&amp;O)...\tCtrl+O" />
+<menuitem id="57602" text="关闭(&amp;C)\tCtrl+W" />
+<menuitem id="57603" text="保存\tCtrl+S" />
+<menuitem id="32932" text="另存为(&amp;A)...\tCtrl+Shift+S" />
+<menuitem id="57607" text="打印(&amp;P)...\tCtrl+P" />
+<menuitem id="57606" text="打印设置(&amp;R)..." />
+<menuitem id="57616" text="最近打开的文件" />
+<menuitem id="32776" text="属性(&amp;T)..." />
+<menuitem id="57665" text="退出(&amp;X)\tCtrl+Q" />
+</popup>
+
+<popup id="|1" text="编辑(&amp;E)">
+<menuitem id="57634" text="复制(&amp;C)\tCtrl+C" />
+<menuitem id="57636" text="查找(&amp;F)...\tCtrl+F" />
+<menuitem id="32903" text="查找下一个(&amp;N)\tF3" />
+<menuitem id="33170" text="搜索...\tShift+Ctrl+F" />
+<menuitem id="32985" text="选项(&amp;P)...\tCtrl+K" />
+</popup>
+
+<popup id="|2" text="视图(&amp;V)">
+<menuitem id="32782" text="书签(&amp;B)\tAlt+1" />
+<menuitem id="32783" text="全屏显示(&amp;F)\tAlt+2" />
+<menuitem id="32787" text="放大(&amp;I)\tCtrl+Num +" />
+<menuitem id="32788" text="缩小(&amp;O)\tCtrl+Num -" />
+<menuitem id="32789" text="缩放到(&amp;T)...\tCtrl+M" />
+<menuitem id="32790" text="实际大小(&amp;A)\tCtrl+1" />
+<menuitem id="32791" text="适合页面(&amp;P)\tCtrl+2" />
+<menuitem id="32792" text="适合宽度(&amp;W)\tCtrl+3" />
+<popup id="|2|12" text="页面布局(&amp;Y)">
+<menuitem id="32925" text="单页(&amp;G)" />
+<menuitem id="32926" text="连续(&amp;C)" />
+<menuitem id="32938" text="对开(&amp;F)" />
+<menuitem id="32939" text="连续对开(&amp;T)" />
+</popup>
+
+<popup id="|2|14" text="旋转视图(&amp;V)">
+<menuitem id="32935" text="顺时针(&amp;C)\tShift+Ctrl+Plus" />
+<menuitem id="32941" text="逆时针(&amp;W)\tShift+Ctrl+Minus" />
+</popup>
+
+<menuitem id="32942" text="反转视图(&amp;R)" />
+<menuitem id="32930" text="广告(&amp;A)" />
+<popup id="|2|20" text="工具栏(&amp;T)">
+<menuitem id="33043" text="文件(&amp;F)" />
+<menuitem id="33044" text="导航(&amp;V)" />
+<menuitem id="33045" text="旋转视图(&amp;W)" />
+<menuitem id="33046" text="缩放(&amp;Z)" />
+<menuitem id="33042" text="基本工具(&amp;S)" />
+<menuitem id="33104" text="帮助(&amp;H)" />
+<menuitem id="33065" text="文本查看器(&amp;X)" />
+<menuitem id="33048" text="重置工具栏(&amp;R)\tAlt+F8" />
+<menuitem id="33049" text="锁定所有工具栏(&amp;D)\tCtrl+F8" />
+<menuitem id="33053" text="隐藏工具栏			F8\tF8" />
+</popup>
+
+<menuitem id="32898" text="菜单栏(&amp;M)" />
+<menuitem id="59393" text="状态栏(&amp;S)" />
+</popup>
+
+<popup id="|3" text="文档(&amp;D)">
+<menuitem id="32777" text="第一页(&amp;F)\tHome" />
+<menuitem id="32778" text="上一页(&amp;P)\tLeft Arrow" />
+<menuitem id="32779" text="下一页(&amp;N)\tRight Arrow" />
+<menuitem id="32780" text="最后一页(&amp;L)\tEnd" />
+<menuitem id="33097" text="前一视图(&amp;V)\tAlt+Left Arrow" />
+<menuitem id="33098" text="后一视图(&amp;W)\tAlt+Right Arrow" />
+<menuitem id="32781" text="跳至(&amp;G)...\tShift+Ctrl+N" />
+</popup>
+
+<popup id="|4" text="工具(&amp;T)">
+<menuitem id="32784" text="手型工具(&amp;H)\tAlt+3" />
+<menuitem id="32785" text="缩小(&amp;O)\tAlt+4" />
+<menuitem id="32786" text="放大(&amp;I)\tAlt+5" />
+<menuitem id="32977" text="文本选择(&amp;L)\tAlt+6" />
+<menuitem id="32987" text="快照(&amp;S)\tAlt+7" />
+<menuitem id="32793" text="文本查看器(&amp;V)\tAlt+9" />
+</popup>
+
+<popup id="|5" text="窗口(&amp;W)">
+<menuitem id="57648" text="新建窗口(&amp;N)" />
+<menuitem id="57650" text="层叠(&amp;C)" />
+<menuitem id="57651" text="平铺(&amp;T)" />
+<menuitem id="57649" text="排列图标(&amp;A)" />
+<menuitem id="33169" text="关闭(&amp;O)" />
+<menuitem id="32795" text="关闭全部(&amp;L)\tCtrl+Shift+W" />
+</popup>
+
+<popup id="|6" text="帮助(&amp;H)">
+<menuitem id="32969" text="设为默认的PDF阅读器(&amp;S)" />
+<menuitem id="32774" text="福昕软件主页(&amp;H)" />
+<menuitem id="57664" text="关于福昕阅读器(&amp;A)..." />
+</popup>
+
+</menu>
+
+<menu id="245">
+
+<popup id="|0" text="视图(&amp;V)">
+<menuitem id="32787" text="放大(&amp;I)\tCtrl+Num +" />
+<menuitem id="32788" text="缩小(&amp;O)\tCtrl+Num -" />
+<menuitem id="32790" text="实际大小(&amp;A)\tCtrl+1" />
+<menuitem id="32791" text="适合页面(&amp;P)\tCtrl+2" />
+<menuitem id="32792" text="适合宽度(&amp;W)\tCtrl+3" />
+<menuitem id="32935" text="顺时针(&amp;C)\tCtrl+Shift+Plus" />
+<menuitem id="32942" text="反转视图(&amp;R)" />
+<menuitem id="33167" text="标尺(&amp;E)\tCtrl+R" />
+<menuitem id="33168" text="参考线(&amp;S)" />
+<menuitem id="33179" text="显示导航面板按钮(&amp;H)\tF4" />
+</popup>
+
+</menu>
+
+<menu id="266">
+
+<popup id="|0" text="文本选择">
+<menuitem id="57634" text="复制(&amp;C)\tCtrl+C" />
+</popup>
+
+</menu>
+
+<menu id="623">
+
+<popup id="|0" text="文本视图">
+<menuitem id="57643" text="撤消(&amp;U)\tCtrl+Z" />
+<menuitem id="57635" text="剪切(&amp;T)\tCtrl+X" />
+<menuitem id="57634" text="复制(&amp;C)\tCtrl+C" />
+<menuitem id="57637" text="粘贴(&amp;P)\tCtrl+V" />
+<menuitem id="32901" text="删除(&amp;D)\tDel" />
+<menuitem id="57636" text="查找(&amp;F)...\tCtrl+F" />
+<menuitem id="32903" text="查找下一个(&amp;N)...\tF3" />
+<menuitem id="57641" text="替换(&amp;R)...\tCtrl+H" />
+<menuitem id="57642" text="全选(&amp;A)\tCtrl+A" />
+</popup>
+
+</menu>
+
+<menu id="653">
+
+<popup id="|0" text="工具栏">
+<popup id="|0|0" text="显示按钮标签">
+<menuitem id="33050" text="默认标签(&amp;D)" />
+<menuitem id="33051" text="所有标签(&amp;A)" />
+<menuitem id="33052" text="无标签(&amp;N)" />
+</popup>
+
+</popup>
+
+</menu>
+
+<menu id="720">
+
+<popup id="|0" text="文本视图">
+<menuitem id="57634" text="复制(&amp;C)\tCtrl+C" />
+<menuitem id="57636" text="查找(&amp;F)...\tCtrl+F" />
+<menuitem id="32903" text="查找下一个(&amp;N)...\tF3" />
+<menuitem id="57642" text="全选(&amp;A)\tCtrl+A" />
+</popup>
+
+</menu>
+
+<menu id="828">
+
+<popup id="|0" text="高亮">
+<menuitem id="33131" text="所有域(&amp;A)" />
+<menuitem id="33129" text="组合框(&amp;C)" />
+<menuitem id="33125" text="复选框(&amp;H)" />
+<menuitem id="33130" text="列表框(&amp;L)" />
+<menuitem id="33126" text="按钮(&amp;U)" />
+<menuitem id="33127" text="单选按钮(&amp;R)" />
+<menuitem id="33128" text="文本域(&amp;T)" />
+<menuitem id="33134" text="隐藏文档信息栏(&amp;M)" />
+</popup>
+
+</menu>
+
+<menu id="840">
+
+<popup id="|0" text="导出">
+<menuitem id="32932" text="另存为(&amp;A)...\tCtrl+Shift+S" />
+<menuitem id="33147" text="另存为副本..." />
+<menuitem id="33055" text="附加到电子邮件(&amp;L)..." />
+<popup id="|0|6" text="注释实用工具(&amp;C)">
+<popup id="|0|6|0" text="导出注释数据(&amp;E)">
+<menuitem id="33137" text="到数据文件 (FDF) (&amp;F)..." />
+<menuitem id="33138" text="到电子邮件(&amp;E)..." />
+</popup>
+
+<menuitem id="33139" text="导入注释数据(&amp;I)..." />
+</popup>
+
+<popup id="|0|7" text="表单实用工具(&amp;F)">
+<popup id="|0|7|0" text="导出表单数据(&amp;E)">
+<menuitem id="33132" text="到数据文件 (FDF) (&amp;F)..." />
+<menuitem id="33133" text="到电子邮件(&amp;E)..." />
+</popup>
+
+<menuitem id="33120" text="导入表单数据(&amp;I)..." />
+<menuitem id="33121" text="重置表单(&amp;R)..." />
+<menuitem id="33122" text="设置计算次序..." />
+<menuitem id="33134" text="隐藏文档信息栏(&amp;M)" />
+</popup>
+
+</popup>
+
+</menu>
+
+<menu id="841">
+
+<popup id="|0" text="缩放工具">
+<menuitem id="32785" text="缩小工具(&amp;O)\tAlt+4" />
+<menuitem id="32786" text="放大工具(&amp;I)\tAlt+5" />
+</popup>
+
+</menu>
+
+<menu id="857">
+
+<popup id="|0" text="最小化到系统托盘">
+<menuitem id="33155" text="最小化到系统托盘" />
+</popup>
+
+</menu>
+
+<menu id="858">
+
+<popup id="|0" text="托盘">
+<menuitem id="33156" text="显示(&amp;S)" />
+<menuitem id="33176" text="常规最小化(&amp;M)" />
+<menuitem id="33157" text="退出(&amp;X)" />
+</popup>
+
+</menu>
+
+<menu id="868">
+
+<popup id="|0" text="标尺">
+<menuitem id="33158" text="点" />
+<menuitem id="33159" text="磅" />
+<menuitem id="33160" text="毫米" />
+<menuitem id="33161" text="厘米" />
+<menuitem id="33162" text="英寸" />
+<menuitem id="33163" text="显示参考线" />
+<menuitem id="33164" text="清理本页参考线(&amp;C)" />
+<menuitem id="33165" text="清理全部参考线(&amp;A)" />
+<menuitem id="33166" text="隐藏标尺(&amp;H)" />
+</popup>
+
+</menu>
+
+<menu id="887">
+
+<popup id="|0" text="标签栏">
+<menuitem id="33183" text="关闭标签(&amp;C)" />
+<menuitem id="33184" text="关闭全部(&amp;A)" />
+<menuitem id="33185" text="关闭其它(&amp;O)" />
+<menuitem id="33188" text="关闭左边(&amp;L)" />
+<menuitem id="33189" text="关闭右边(&amp;R)" />
+<menuitem id="33190" text="打印当前标签(&amp;P)..." />
+</popup>
+
+</menu>
+
+<menu id="16002">
+
+<popup id="|0" text="复制文本">
+<menuitem id="16100" text="复制到剪贴板(&amp;Y)\tCtrl+C" />
+<menuitem id="32772" text="全选(&amp;L)\tCtrl+A" />
+<menuitem id="32773" text="取消全选(&amp;E)\tCtrl+Shift+A" />
+<menuitem id="16101" text="用高亮标记文本(&amp;L)\tCtrl+Shift+L" />
+<menuitem id="16104" text="用删除线标记文本(&amp;T)\tCtrl+Shift+T" />
+<menuitem id="16103" text="用下划线标记文本(&amp;U)\tCtrl+Shift+U" />
+<menuitem id="16105" text="用波浪线标记文本(&amp;Q)\tCtrl+Shift+Q" />
+<menuitem id="16102" text="用替换标记文本(&amp;R)\tCtrl+Shift+R" />
+<menuitem id="16106" text="添加书签(&amp;M)\tCtrl+Shift+B" />
+</popup>
+
+</menu>
+
+<menu id="21005">
+
+<popup id="|0" text="选项">
+<menuitem id="23509" text="列出全部页面的层(&amp;A)" />
+<menuitem id="23510" text="列出可视页的层(&amp;V)" />
+<menuitem id="23503" text="重置到初始状态(&amp;R)" />
+<menuitem id="23504" text="全部展开(&amp;X)" />
+<menuitem id="23505" text="全部关闭(&amp;O)" />
+</popup>
+
+<popup id="|1" >
+<menuitem id="23501" text="列出全部页面的层(&amp;A)" />
+<menuitem id="23502" text="列出可视页的层(&amp;V)" />
+<menuitem id="23503" text="重置到初始可视状态(&amp;R)" />
+<menuitem id="23504" text="全部展开(&amp;X)" />
+<menuitem id="23505" text="全部折叠(&amp;O)" />
+<menuitem id="23506" text="层属性(&amp;P)..." />
+</popup>
+
+</menu>
+
+<menu id="21006">
+
+<popup id="|0" >
+<menuitem id="23507" text="显示层(&amp;S)" />
+<menuitem id="23508" text="属性(&amp;P)..." />
+</popup>
+
+<menuitem id="65535"  />
+</menu>
+
+<menu id="1006">
+
+<popup id="|0" text="链接">
+<menuitem id="32771" text="删除(&amp;D)" />
+<menuitem id="32772" text="打开属性 (&amp;P)..." />
+</popup>
+
+</menu>
+
+<menu id="13009">
+
+<popup id="|0" text="距离测量">
+<menuitem id="32771" text="完成测量(&amp;C)" />
+<menuitem id="32772" text="取消测量(&amp;N)" />
+</popup>
+
+</menu>
+
+<menu id="14014">
+
+<popup id="|0" text="弹出式菜单">
+<menuitem id="14035" text="剪切(&amp;T)\tCtrl+X" />
+<menuitem id="14036" text="复制(&amp;C)\tCtrl+C" />
+<menuitem id="14037" text="粘贴(&amp;P)\tCtrl+V" />
+<menuitem id="14038" text="删除(&amp;D)" />
+<menuitem id="14039" text="全选(&amp;L)\tCtrl+A" />
+<popup id="|0|6" text="对齐(&amp;A)">
+<menuitem id="14040" text="左对齐(&amp;L)" />
+<menuitem id="14041" text="右对齐(&amp;R)" />
+<menuitem id="14042" text="顶端对齐(&amp;T)" />
+<menuitem id="14043" text="底端对齐(&amp;B)" />
+<menuitem id="14044" text="垂直对齐(&amp;V)" />
+<menuitem id="14045" text="水平对齐(&amp;H)" />
+</popup>
+
+<popup id="|0|7" text="居中(&amp;C)">
+<menuitem id="14046" text="垂直居中(&amp;V)" />
+<menuitem id="14047" text="水平居中(&amp;H)" />
+<menuitem id="14048" text="垂直和水平居中(&amp;B)" />
+</popup>
+
+<popup id="|0|8" text="分散(&amp;D)">
+<menuitem id="14049" text="垂直分散对齐(&amp;V)" />
+<menuitem id="14050" text="水平分散对齐(&amp;H)" />
+</popup>
+
+<popup id="|0|9" text="大小(&amp;S)">
+<menuitem id="14051" text="等高(&amp;H)" />
+<menuitem id="14052" text="等宽(&amp;W)" />
+<menuitem id="14053" text="等高和等宽(&amp;B)" />
+</popup>
+
+<menuitem id="14034" text="属性(&amp;P)..." />
+</popup>
+
+</menu>
+
+<menu id="28026">
+
+<popup id="|0" text="排序">
+<menuitem id="28101" text="类型(&amp;T)" />
+<menuitem id="28102" text="页面(&amp;P)" />
+<menuitem id="28103" text="作者(&amp;A)" />
+<menuitem id="28104" text="日期(&amp;D)" />
+<menuitem id="28105" text="颜色(&amp;C)" />
+<menuitem id="28106" text="检测标记状态(&amp;H)" />
+<menuitem id="28107" text="个人状态(&amp;S)" />
+</popup>
+
+</menu>
+
+<menu id="22001">
+
+<popup id="|0" text="缩放">
+<menuitem id="22003" text="放大缩略图(&amp;L)" />
+<menuitem id="22004" text="缩小缩略图(&amp;P)" />
+</popup>
+
+</menu>
+
+<menu id="26003">
+
+<popup id="|0" >
+<menuitem id="26501" text="剪切(&amp;T)\tCtrl+X" />
+<menuitem id="26502" text="复制(&amp;C)\tCtrl+C" />
+<menuitem id="26503" text="粘贴(&amp;P)\tCtrl+V" />
+<menuitem id="26504" text="删除(&amp;D)" />
+<menuitem id="26505" text="全选(&amp;L)\tCtrl+A" />
+</popup>
+
+</menu>
+
+<menu id="26511">
+
+<popup id="|0" >
+<menuitem id="26512" text="回复该主题(&amp;R)" />
+<menuitem id="26513" text="删除该主题(&amp;D)" />
+<menuitem id="26514" text="改变颜色(&amp;C):" />
+</popup>
+
+</menu>
+
+<menu id="17000">
+
+<popup id="|0" >
+<menuitem id="17001" text="复制所选图像(&amp;Y)\tCtrl+C" />
+<menuitem id="17002" text="全选(&amp;L)\tCtrl+A" />
+<menuitem id="17003" text="取消全选(&amp;E)\tCtrl+Shift+A" />
+<menuitem id="17004" text="打印(&amp;P)...\tCtrl+P" />
+</popup>
+
+<popup id="|1" >
+<menuitem id="17001" text="复制所选图像(&amp;Y)\tCtrl+C" />
+<menuitem id="17002" text="全选(&amp;L)\tCtrl+A" />
+<menuitem id="17003" text="取消全选(&amp;E)\tShift+Ctrl+A" />
+<menuitem id="17004" text="打印(&amp;P)...\tCtrl+P" />
+</popup>
+
+</menu>
+
+</Menus>
+<Dialogs>
+<Dialog id="10000" text="请等待...">
+<dlgitem id="10004" text="信息" />
+</Dialog>
+
+<Dialog id="10001" />
+<Dialog id="10003" text="菜单项选择">
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="10111" text="选择一个菜单项目来执行！当前选择的菜单项目是:" />
+</Dialog>
+
+<Dialog id="10004" text="跳至页面视图">
+<dlgitem id="1" text="设置链接(&amp;S)" />
+<dlgitem id="2" text="取消(&amp;C)" />
+<dlgitem id="10117" text="跳转到你想要设置的页面位置。\n\n你可以在当前文档或打开、激活其他PDF文档中，使用滚动条、鼠标和缩放工具来选择目标视图。" />
+</Dialog>
+
+<Dialog id="10005" text="显示/隐藏域">
+<dlgitem id="10119" text="选择域" />
+<dlgitem id="10106" text="显示" />
+<dlgitem id="10095" text="隐藏" />
+<dlgitem id="1" text="确定(&amp;O)" />
+<dlgitem id="2" text="取消(&amp;C)" />
+</Dialog>
+
+<Dialog id="10006" text="JavaScript编辑框">
+<dlgitem id="10108" text="编辑JavaScript脚本:" />
+<dlgitem id="10147" text="确定(&amp;O)" />
+<dlgitem id="10096" text="取消(&amp;C)" />
+</Dialog>
+
+<Dialog id="10007" text="执行指定的命令">
+<dlgitem id="10120" text="选择指定的命令" />
+<dlgitem id="10087" text="转到首页(&amp;F)" />
+<dlgitem id="10090" text="转到前页(&amp;P)" />
+<dlgitem id="10089" text="转到后页(&amp;N)" />
+<dlgitem id="10088" text="转到末页(&amp;L)" />
+<dlgitem id="10105" text="打印设置(&amp;S)" />
+<dlgitem id="10104" text="打印表单(&amp;T)" />
+<dlgitem id="1" text="确定(&amp;O)" />
+<dlgitem id="2" text="取消(&amp;C)" />
+</Dialog>
+
+<Dialog id="10008" text="编辑URL">
+<dlgitem id="10109" text="输入网址:" />
+<dlgitem id="1" text="确定(&amp;O)" />
+<dlgitem id="2" text="取消(&amp;C)" />
+</Dialog>
+
+<Dialog id="10009" text="重置表单">
+<dlgitem id="10118" text="选择域" />
+<dlgitem id="10086" text="Tree2" />
+<dlgitem id="10007" text="全选(&amp;S)" />
+<dlgitem id="10006" text="取消全选(&amp;D)" />
+<dlgitem id="1" text="确定(&amp;O)" />
+<dlgitem id="2" text="取消(&amp;C)" />
+</Dialog>
+
+<Dialog id="10010" text="提交表单">
+<dlgitem id="10121" text="提交方式" />
+<dlgitem id="10122" text="提交给(&amp;S):" />
+<dlgitem id="10123" text="邮件地址(&amp;A):" />
+<dlgitem id="10127" text="使用匿名(&amp;O)" />
+<dlgitem id="10129" text="输入用户名和密码(&amp;P)" />
+<dlgitem id="10130" text="用户名:" />
+<dlgitem id="10128" text="密码:" />
+<dlgitem id="10112" text="选择域" />
+<dlgitem id="10124" text="所有域(&amp;L)" />
+<dlgitem id="10132" text="选定域(&amp;F)" />
+<dlgitem id="10126" text="Tree1" />
+<dlgitem id="10131" text="全选" />
+<dlgitem id="10125" text="取消全选" />
+<dlgitem id="1" text="确定(&amp;O)" />
+<dlgitem id="2" text="取消(&amp;C)" />
+</Dialog>
+
+<Dialog id="10014" text="动作">
+<dlgitem id="10143" text="添加动作" />
+<dlgitem id="10145" text="选择触发方式(&amp;S):" />
+<dlgitem id="10144" text="选择动作(&amp;N):" />
+<dlgitem id="10135" text="添加(&amp;A)..." />
+<dlgitem id="10142" text="动作" />
+<dlgitem id="10134" text="Tree1" />
+<dlgitem id="10139" text="上移(&amp;U)" />
+<dlgitem id="10137" text="下移(&amp;W)" />
+<dlgitem id="10138" text="编辑(&amp;E)" />
+<dlgitem id="10136" text="删除(&amp;D)" />
+</Dialog>
+
+<Dialog id="10015" text="外观">
+<dlgitem id="10072" text="线宽(&amp;T):" />
+<dlgitem id="10078" text="Spin1" />
+<dlgitem id="10055" text="线型(&amp;Y):" />
+<dlgitem id="10056" text="颜色(&amp;R):" />
+<dlgitem id="10060" text="填充色(&amp;F):" />
+<dlgitem id="10063" text="起点(&amp;S):" />
+<dlgitem id="10062" text="终点(&amp;E):" />
+<dlgitem id="10068" text="不透明度(&amp;O):" />
+<dlgitem id="10070" text="%" />
+<dlgitem id="10074" text="Slider1" />
+<dlgitem id="10037" text="线条上显示文本(&amp;W)" />
+</Dialog>
+
+<Dialog id="10017" text="常规">
+<dlgitem id="10054" text="作者(&amp;A):" />
+<dlgitem id="10071" text="题目(&amp;U):" />
+<dlgitem id="10059" text="说明(&amp;D):" />
+<dlgitem id="10066" text="名称:" />
+<dlgitem id="10057" text="创建时间:" />
+<dlgitem id="10064" text="修改时间:" />
+</Dialog>
+
+<Dialog id="10018" text="信息">
+<dlgitem id="10079" text="属性控制器。保留所有权利。版权所有(C)福昕软件公司 2005-2008" />
+</Dialog>
+
+<Dialog id="10019" text="审阅历史记录">
+<dlgitem id="10080" text="Tree1" />
+<dlgitem id="10061" text="任何状态的改变都会记录并显示在上面的列表中。可以通过弹出菜单改变状态。" />
+</Dialog>
+
+<Dialog id="10200" text="选择文件">
+<dlgitem id="10200" text="编辑或选择一个文件" />
+<dlgitem id="10202" text="按键1" />
+<dlgitem id="1" text="确定(&amp;O)" />
+<dlgitem id="2" text="取消(&amp;C)" />
+</Dialog>
+
+<Dialog id="19201" >
+<dlgitem id="19210" text="字体(&amp;S):" />
+<dlgitem id="19213" text="颜色(&amp;C):" />
+</Dialog>
+
+<Dialog id="19203" />
+<Dialog id="15544" text="打开附件">
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="15510" text="打开此附件文件可能会损害您的电脑。请在打开前确定这是安全的文件:" />
+<dlgitem id="15511" text="打开附件" />
+<dlgitem id="15512" text="总是打开此类型的附件" />
+<dlgitem id="15513" text="从不打开此类型的附件" />
+</Dialog>
+
+<Dialog id="15545" text="图标设置">
+<dlgitem id="15516" text="图标:" />
+</Dialog>
+
+<Dialog id="15546" text="附件">
+<dlgitem id="15530" text="编辑描述" />
+<dlgitem id="15531" text="List1" />
+<dlgitem id="15519" text="打开" />
+<dlgitem id="15520" text="保存" />
+<dlgitem id="15521" text="添加" />
+<dlgitem id="15522" text="删除" />
+<dlgitem id="15527" text="设置" />
+</Dialog>
+
+<Dialog id="15547" text="安全设置">
+<dlgitem id="15533" text="添加" />
+<dlgitem id="15532" text="删除" />
+<dlgitem id="1" text="确定" />
+<dlgitem id="15515" text="List1" />
+<dlgitem id="15523" text="设置" />
+<dlgitem id="15524" text="处理此类型的文件附件时请询问我。" />
+<dlgitem id="15525" text="总是打开/保存此类型的文件附件。" />
+<dlgitem id="15526" text="从不打开/保存此类型的文件附件。" />
+</Dialog>
+
+<Dialog id="15548" text="安全设置">
+<dlgitem id="15529" text="输入文件扩展名:" />
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+</Dialog>
+
+<Dialog id="15549" text="编辑附件描述">
+<dlgitem id="15534" text="描述:" />
+<dlgitem id="15536" text="确定" />
+<dlgitem id="15537" text="取消" />
+</Dialog>
+
+<Dialog id="15003" />
+<Dialog id="15009" >
+<dlgitem id="15071" text="查找:" />
+</Dialog>
+
+<Dialog id="15028" >
+<dlgitem id="15020" text="隐藏" />
+<dlgitem id="15077" text="PDF 搜索" />
+<dlgitem id="15025" text="您要搜索哪些单词或短语?" />
+<dlgitem id="15030" text="在当前 PDF 文档中" />
+<dlgitem id="15034" text="所有PDF文档，位于" />
+<dlgitem id="15040" text="全字匹配" />
+<dlgitem id="15042" text="区分大小写" />
+<dlgitem id="15044" text="搜索" />
+<dlgitem id="15048" text="您要搜索哪个位置?" />
+<dlgitem id="15054" text="查找的位置:" />
+<dlgitem id="15058" text="查找到的文档数:" />
+<dlgitem id="15062" text="查找到的数量:" />
+<dlgitem id="15066" text="Tree1" />
+<dlgitem id="15068" text="结果:" />
+<dlgitem id="15070" text="搜索" />
+</Dialog>
+
+<Dialog id="15074" text="高级搜索"/>
+<Dialog id="9083" >
+<dlgitem id="9084" text="字体:" />
+</Dialog>
+
+<Dialog id="9088" text="字符间距">
+<dlgitem id="9089" text="通过使用不同的间距达到缩放文本行的操作：" />
+<dlgitem id="9090" text="缩放：" />
+<dlgitem id="9092" text="点" />
+<dlgitem id="9094" text="确定" />
+<dlgitem id="9095" text="取消" />
+<dlgitem id="9093" text="预览" />
+</Dialog>
+
+<Dialog id="9096" text="字符缩放">
+<dlgitem id="9097" text="缩放：" />
+<dlgitem id="9100" text="%" />
+<dlgitem id="9099" text="预览" />
+<dlgitem id="9101" text="确定" />
+<dlgitem id="9102" text="取消" />
+</Dialog>
+
+<Dialog id="9103" text="符号">
+<dlgitem id="9105" text="字体:" />
+<dlgitem id="9106" text="字符集:" />
+<dlgitem id="9107" text="编码:" />
+<dlgitem id="9110" text="插入" />
+<dlgitem id="9111" text="取消" />
+</Dialog>
+
+<Dialog id="9117" >
+<dlgitem id="9120" text="确定" />
+<dlgitem id="9121" text="取消" />
+<dlgitem id="9118" text="设定当前值：" />
+</Dialog>
+
+<Dialog id="9125" >
+<dlgitem id="9126" text="不透明度" />
+<dlgitem id="9128" text="滑动" />
+<dlgitem id="9131" text="%" />
+</Dialog>
+
+<Dialog id="20101" text="对话框">
+<dlgitem id="20102" text="确定" />
+<dlgitem id="20103" text="取消" />
+<dlgitem id="20105" text="是(&amp;Y)" />
+<dlgitem id="20106" text="否(&amp;N)" />
+</Dialog>
+
+<Dialog id="20109" >
+<dlgitem id="20112" text="确定" />
+<dlgitem id="20113" text="取消" />
+</Dialog>
+
+<Dialog id="20200" text="Javascript 控制台">
+<dlgitem id="20108" text="运行" />
+<dlgitem id="20202" text="保存" />
+<dlgitem id="20203" text="打开" />
+<dlgitem id="20204" text="清除" />
+</Dialog>
+
+<Dialog id="100" />
+<Dialog id="130" text="密码">
+<dlgitem id="1196" text="请输入密码" />
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="1121" text="这是一个加密文档.请输入打开文档的密码." />
+</Dialog>
+
+<Dialog id="147" >
+<dlgitem id="1002" text="保存整个文档" />
+<dlgitem id="1003" text="保存当前页" />
+<dlgitem id="1004" text="保存页面 从:" />
+<dlgitem id="1191" text="到" />
+<dlgitem id="1190" text="保存内容:" />
+</Dialog>
+
+<Dialog id="150" >
+<dlgitem id="1244" text="常规" />
+<dlgitem id="1032" text="Static" />
+<dlgitem id="1201" text="Static" />
+<dlgitem id="1241" text="高级" />
+<dlgitem id="1243" text="页数:" />
+<dlgitem id="1057" text="PDF 版本:" />
+<dlgitem id="1208" text="更多..." />
+<dlgitem id="1242" text="页面大小:" />
+<dlgitem id="1233" text="标题:" />
+<dlgitem id="1234" text="主题:" />
+<dlgitem id="1235" text="作者:" />
+<dlgitem id="1238" text="关键词:" />
+<dlgitem id="1236" text="创建者:" />
+<dlgitem id="1237" text="制作者:" />
+<dlgitem id="1239" text="创建日期:" />
+<dlgitem id="1240" text="修改日期:" />
+<dlgitem id="1205" text="Static" />
+<dlgitem id="1207" text="Static" />
+<dlgitem id="1203" text="Static" />
+</Dialog>
+
+<Dialog id="157" text="跳至页面">
+<dlgitem id="1194" text="页面(&amp;P):" />
+<dlgitem id="1195" text="/" />
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+</Dialog>
+
+<Dialog id="158" text="缩放到">
+<dlgitem id="1203" text="缩放比例(&amp;M):" />
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+</Dialog>
+
+<Dialog id="165" text="文本查看器颜色">
+<dlgitem id="1254" text="前景色" />
+<dlgitem id="1251" text="红:" />
+<dlgitem id="1202" text="Slider1" />
+<dlgitem id="1252" text="绿:" />
+<dlgitem id="1206" text="Slider1" />
+<dlgitem id="1253" text="蓝:" />
+<dlgitem id="1204" text="Slider1" />
+<dlgitem id="1084" text="背景" />
+<dlgitem id="1255" text="红:" />
+<dlgitem id="1210" text="Slider1" />
+<dlgitem id="1256" text="绿:" />
+<dlgitem id="1212" text="Slider1" />
+<dlgitem id="1257" text="蓝:" />
+<dlgitem id="1214" text="Slider1" />
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+</Dialog>
+
+<Dialog id="189" />
+<Dialog id="252" text="福昕阅读器">
+<dlgitem id="1064" text="每次打开福昕阅读器都进行此项检查." />
+<dlgitem id="1" text="是(&amp;Y)" />
+<dlgitem id="2" text="否(&amp;N)" />
+<dlgitem id="1065" text="福昕阅读器不是系统当前默认的 PDF 阅读器。您想把福昕阅读器设为默认的 PDF 阅读器吗？" />
+<dlgitem id="1228" text="当您把福昕阅读器设为默认的 PDF 阅读器,您只要双击 PDF 文件就可以运行自动福昕阅读器,也可以不用 Internet Explore 就能在网络上直接阅读PDF文件." />
+<dlgitem id="1229" text="想设置其它 PDF 阅读器为默认的阅读器，您需要运行其他阅读器，并把它设置为默认。" />
+</Dialog>
+
+<Dialog id="274" text="查找文本">
+<dlgitem id="1192" text="查找内容(&amp;N):" />
+<dlgitem id="1067" text="全字匹配(&amp;W)" />
+<dlgitem id="1068" text="区分大小写(&amp;C)" />
+<dlgitem id="1193" text="方向" />
+<dlgitem id="1069" text="向上(&amp;U)" />
+<dlgitem id="1070" text="向下(&amp;D)" />
+<dlgitem id="1153" text="查找下一个(&amp;F)" />
+<dlgitem id="2" text="取消(&amp;C)" />
+</Dialog>
+
+<Dialog id="275" text="选项">
+<dlgitem id="1104" text="内容:" />
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+</Dialog>
+
+<Dialog id="276" >
+<dlgitem id="1197" text="文档颜色选项" />
+<dlgitem id="1074" text="改变文档颜色(&amp;R)" />
+<dlgitem id="1075" text="使用Windows颜色方案(&amp;W)" />
+<dlgitem id="1076" text="自定义颜色(&amp;C):" />
+<dlgitem id="1102" text="页面背景色:" />
+<dlgitem id="1103" text="文本颜色:" />
+<dlgitem id="1078" text="仅更改颜色为黑色或白色的内容(&amp;O)" />
+<dlgitem id="1374" text="文档布局" />
+<dlgitem id="1375" text="标签文档(&amp;T)" />
+<dlgitem id="1376" text="允许多重实例(&amp;A)" />
+<dlgitem id="1377" text="关闭全部标签前显示提示信息(&amp;S)" />
+</Dialog>
+
+<Dialog id="278" >
+<dlgitem id="1201" text="页面显示" />
+<dlgitem id="1202" text="默认页面布局(&amp;A):" />
+<dlgitem id="1101" text="显示透明网格(&amp;T)" />
+<dlgitem id="1105" text="自定义对开(&amp;C)" />
+<dlgitem id="1204" text="页面" />
+<dlgitem id="1252" text="自定义页间距(&amp;M)" />
+<dlgitem id="1205" text="像素" />
+<dlgitem id="1111" text="优化显示文本(适合 LCD 屏幕)(&amp;D)" />
+<dlgitem id="1203" text="缩放比例" />
+<dlgitem id="1206" text="默认缩放(&amp;Z):" />
+<dlgitem id="1207" text="最大缩放比例(&amp;V):" />
+</Dialog>
+
+<Dialog id="300" >
+<dlgitem id="1198" text="基本工具栏" />
+<dlgitem id="1108" text="对快照使用固定分辨率(&amp;N)" />
+<dlgitem id="1200" text="分辨率(&amp;U):" />
+<dlgitem id="1344" text="自动识别 URL 链接(&amp;L)" />
+<dlgitem id="1345" text="最小化到系统托盘(&amp;T)" />
+<dlgitem id="1346" text="屏幕取词(&amp;W)" />
+<dlgitem id="1199" text="打印机" />
+<dlgitem id="1253" text="将文档作为图像打印(忽略替代字体)(&amp;G)" />
+<dlgitem id="1306" text="历史记录" />
+<dlgitem id="1329" text="历史记录里保存的最大文档数量(&amp;M):" />
+<dlgitem id="1333" text="最近打开列表中的最大文档数量(&amp;X):" />
+<dlgitem id="1368" text="重新打开文档时跳转到上次的阅读位置" />
+<dlgitem id="1201" text="导航面板" />
+<dlgitem id="1254" text="重新打开程序时使用上次的阅览设定(&amp;R)" />
+<dlgitem id="1383" text="标签栏" />
+<dlgitem id="1202" text="标签最大尺寸(&amp;S):" />
+<dlgitem id="1203" text="(点: 140-360)" />
+<dlgitem id="1255" text="总显示关闭按钮(&amp;S)" />
+<dlgitem id="1144" text="测量单位" />
+<dlgitem id="1409" text="英寸(&amp;I)" />
+<dlgitem id="1410" text="厘米(&amp;C)" />
+<dlgitem id="1411" text="点(&amp;P)" />
+<dlgitem id="1412" text="磅(&amp;C)" />
+</Dialog>
+
+<Dialog id="530" text="打印机">
+<dlgitem id="1199" text="打印机" />
+<dlgitem id="1208" text="名称(&amp;N):" />
+<dlgitem id="1120" text="属性(&amp;P)" />
+<dlgitem id="1209" text="状态:" />
+<dlgitem id="1141" text="就绪" />
+<dlgitem id="1122" text="打印到文件(&amp;F)" />
+<dlgitem id="1210" text="类型:" />
+<dlgitem id="1142" text="福昕PDF打印机" />
+<dlgitem id="1139" text="打印提示(&amp;T)" />
+<dlgitem id="1140" text="高级(&amp;D)" />
+<dlgitem id="1211" text="打印范围" />
+<dlgitem id="1123" text="全部(&amp;A)" />
+<dlgitem id="1127" text="当前视图(&amp;V)" />
+<dlgitem id="1130" text="当前页面(&amp;U)" />
+<dlgitem id="1216" text="页面(&amp;G): 从" />
+<dlgitem id="1191" text="到(&amp;T):" />
+<dlgitem id="1212" text="子集(&amp;B):" />
+<dlgitem id="1226" text="逆序打印(&amp;E)" />
+<dlgitem id="1213" text="打印处理" />
+<dlgitem id="1214" text="份数(&amp;C):" />
+<dlgitem id="1163" text="页边距(&amp;M):" />
+<dlgitem id="1228" text="英寸" />
+<dlgitem id="1229" text="自动分页(&amp;O)" />
+<dlgitem id="1215" text="页面缩放比例(&amp;S):" />
+<dlgitem id="1217" text="页面排列(&amp;R):" />
+<dlgitem id="1219" text="页面旋转(&amp;R):" />
+<dlgitem id="1164" text="打印顺序(&amp;D):" />
+<dlgitem id="1165" text="每页版数(&amp;S):" />
+<dlgitem id="1166" text="由(&amp;Y)" />
+<dlgitem id="1133" text="自动旋转(&amp;R)" />
+<dlgitem id="1151" text="自动居中(&amp;T)" />
+<dlgitem id="1156" text="打印边框(&amp;B)" />
+<dlgitem id="1221" text="打印内容(&amp;W):" />
+<dlgitem id="1135" text="根据 PDF页面选择纸张(&amp;Z)" />
+<dlgitem id="1154" text="预览" />
+<dlgitem id="1222" text="文档:" />
+<dlgitem id="1223" text="纸张:" />
+<dlgitem id="1225" text="单位:" />
+<dlgitem id="1144" text="Static" />
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="1143" text="显示页面" />
+<dlgitem id="1227" text="页面(&amp;P)" />
+</Dialog>
+
+<Dialog id="672" text="文本查看器设置">
+<dlgitem id="1259" text="当前页面宽度" />
+<dlgitem id="1264" text="最小宽度:" />
+<dlgitem id="1043" text="自动宽度" />
+<dlgitem id="1045" text="自动旋转" />
+<dlgitem id="1242" text="保持列" />
+<dlgitem id="1260" text="当前文档宽度" />
+<dlgitem id="1263" text="最小宽度:" />
+<dlgitem id="1058" text="自动宽度" />
+<dlgitem id="1061" text="自动旋转" />
+<dlgitem id="1060" text="保持列" />
+<dlgitem id="1261" text="系统默认宽度" />
+<dlgitem id="1262" text="最小宽度:" />
+<dlgitem id="1240" text="自动宽度" />
+<dlgitem id="1062" text="自动旋转" />
+<dlgitem id="1056" text="保持列" />
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+</Dialog>
+
+<Dialog id="673" text="PDF 字体...">
+<dlgitem id="1048" text="List1" />
+<dlgitem id="1258" text="目标:" />
+<dlgitem id="1051" text="预览" />
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+</Dialog>
+
+<Dialog id="708" />
+<Dialog id="723" text="福昕阅读器">
+<dlgitem id="1" text="确定" />
+<dlgitem id="1227" text="谢谢您使用福昕阅读器! 这只是一个有下列限制的评估版本:" />
+<dlgitem id="1231" text="如果您想购买福昕阅读器的正式版请访问以下链接:" />
+<dlgitem id="1232" text="或者发邮件到 sales@foxitsoftware.com." />
+<dlgitem id="1148" text="http://www.fuxinsoftware.com.cn" />
+<dlgitem id="17001" text="不再显示此信息" />
+</Dialog>
+
+<Dialog id="727" text="进度">
+<dlgitem id="2" text="取消" />
+<dlgitem id="1256" text="进度1" />
+<dlgitem id="1255" text="搜索..." />
+</Dialog>
+
+<Dialog id="778" text="进度">
+<dlgitem id="1152" text="进度1" />
+<dlgitem id="1255" text="打印中..." />
+<dlgitem id="2" text="取消" />
+</Dialog>
+
+<Dialog id="786" text="福昕阅读器">
+<dlgitem id="1" text="确定" />
+<dlgitem id="1245" text="感谢您使用福昕阅读器" />
+<dlgitem id="1228" text="您刚才要使用的是福昕阅读器专业版的功能，您的福昕阅读器的副本没有这个功能。当您购买了福昕阅读器专业版您才可以用这个功能." />
+<dlgitem id="17001" text="不再显示此信息" />
+<dlgitem id="1270" text="请访问 (www.fuxinsoftware.com.cn) 获取福昕阅读器专业版的注册信息或通过免费体验 (www.foxitsoftware.com/freeoffer) 免费获取。" />
+</Dialog>
+
+<Dialog id="787" text="福昕阅读器">
+<dlgitem id="1" text="确定" />
+<dlgitem id="1245" text="感谢您使用福昕阅读器" />
+<dlgitem id="1246" text="您已经对文档做了修改, 您可以保存它, 因为您没有一个独立的注册信息，所以您所修改的页面会包含有一些评估版的信息." />
+<dlgitem id="17001" text="不再显示此信息" />
+<dlgitem id="1228" text="购买福昕阅读器后，您就可以很容易地将这些评估版本的标记去掉." />
+<dlgitem id="1270" text="请访问 (www.fuxinsoftware.com.cn) 获取福昕阅读器专业版的注册信息或通过免费体验 (www.foxitsoftware.com/freeoffer) 免费获取" />
+</Dialog>
+
+<Dialog id="788" text="福昕阅读器">
+<dlgitem id="1" text="确定" />
+<dlgitem id="1245" text="感谢您使用福昕阅读器" />
+<dlgitem id="1246" text="您现在使用的是福昕阅读器专业版的功能,您仍然可以 使用这个功能,但是如果您想保存 PDF 文件,这些被修改过的页面会包含有一些评估版本的标记." />
+<dlgitem id="17001" text="不再显示此信息" />
+<dlgitem id="1228" text="购买福昕阅读器专业版后，您就可以很容易地将这些评估版本的标记去掉." />
+<dlgitem id="1270" text="请访问 (www.fuxinsoftware.com.cn) 获取福昕阅读器专业版的注册信息或通过免费体验 (www.foxitsoftware.com/freeoffer) 免费获取。" />
+</Dialog>
+
+<Dialog id="791" text="福昕阅读器">
+<dlgitem id="1" text="确定" />
+<dlgitem id="1227" text="当前的PDF文档含有 CJK（中文/日文/韩文）字符，您需要安装 FPDFCJK.BIN 到您的福昕阅读器安装目录，否则这些 CJK 字符无法正确显示!" />
+<dlgitem id="1148" text="http://www.fuxinsoftware.com.cn/pdf/rd_intro.php" />
+<dlgitem id="1228" text="您可以从这个链接下载文件" />
+<dlgitem id="17001" text="不再显示此信息" />
+</Dialog>
+
+<Dialog id="792" text="缺少组件">
+<dlgitem id="1" text="是(&amp;Y)" />
+<dlgitem id="2" text="否(&amp;N)" />
+<dlgitem id="1186" text="提示：" />
+<dlgitem id="1226" text="您想获得更多的信息和显示下载管理器吗?" />
+<dlgitem id="1273" text="注意: 这需要访问因特网" />
+</Dialog>
+
+<Dialog id="793" text="福昕阅读器升级管理器">
+<dlgitem id="1185" text="下载(&amp;D)" />
+<dlgitem id="2" text="取消(&amp;C)" />
+<dlgitem id="1178" text="进度1" />
+<dlgitem id="1187" text="文件名:" />
+<dlgitem id="1188" text="位置:" />
+<dlgitem id="1189" text="剩余时间:" />
+<dlgitem id="1186" text="描述:" />
+</Dialog>
+
+<Dialog id="796" text="更新">
+<dlgitem id="1" text="安装(&amp;I)" />
+<dlgitem id="2" text="取消(&amp;C)" />
+<dlgitem id="1265" text="可用更新(&amp;A):" />
+<dlgitem id="1266" text="所选更新(&amp;L):" />
+<dlgitem id="1269" text="(0.0 KB)" />
+<dlgitem id="1169" text="添加(&amp;A)" />
+<dlgitem id="1170" text="删除(&amp;R)" />
+<dlgitem id="1186" text="说明(&amp;D):" />
+<dlgitem id="1396" text="Tree1" />
+<dlgitem id="3" text="选项(&amp;P)" />
+<dlgitem id="1267" text="大小(&amp;Z):" />
+</Dialog>
+
+<Dialog id="797" text="软件意外错误报告">
+<dlgitem id="1383" text="福昕阅读器遇到问题需要关闭。为此，我们深感歉意！" />
+<dlgitem id="1382" text="为了改进福昕阅读器，请您将此错误反馈给我们。" />
+<dlgitem id="1381" text="在福昕阅读器目录下，已创建一个错误报告名为crashlog.txt。请将它上传至以下链接，并详细描述您遇到的问题。" />
+<dlgitem id="1" text="确定" />
+<dlgitem id="795" text="http://www.fuxinsoftware.com.cn/support/ticket/" />
+<dlgitem id="1380" text="衷心感谢您对福昕软件的支持和厚爱！" />
+</Dialog>
+
+<Dialog id="810" text="进度">
+<dlgitem id="1271" text="进度1" />
+</Dialog>
+
+<Dialog id="812" text="福昕阅读器">
+<dlgitem id="2" text="取消" />
+<dlgitem id="1313" text="检查更新..." />
+</Dialog>
+
+<Dialog id="813" text="Java 脚本函数">
+<dlgitem id="2" text="关闭(&amp;C)" />
+<dlgitem id="1275" text="脚本名称(&amp;N):" />
+<dlgitem id="1279" text="增加(&amp;A)" />
+<dlgitem id="1280" text="编辑(&amp;E)" />
+<dlgitem id="1281" text="删除(&amp;D)" />
+</Dialog>
+
+<Dialog id="814" text="JavaScript编辑框">
+<dlgitem id="1317" text="创建或编辑JavaScript脚本:" />
+<dlgitem id="1286" text="字体(&amp;F)..." />
+<dlgitem id="1285" text="重载(&amp;R)" />
+<dlgitem id="1284" text="保存(&amp;S)" />
+<dlgitem id="1283" text="关闭(&amp;C)" />
+</Dialog>
+
+<Dialog id="815" text="计算次序">
+<dlgitem id="1312" text="表单域:" />
+<dlgitem id="1287" text="上移(&amp;U)" />
+<dlgitem id="1288" text="下移(&amp;D)" />
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+</Dialog>
+
+<Dialog id="816" >
+<dlgitem id="1290" text="高亮域" />
+<dlgitem id="1312" text="该文档包含交互式表单区域." />
+</Dialog>
+
+<Dialog id="819" >
+<dlgitem id="1314" text="高亮颜色" />
+<dlgitem id="1301" text="高亮所有域(&amp;H)" />
+<dlgitem id="1316" text="分类区域高亮:" />
+<dlgitem id="1302" text="组合框(&amp;C)" />
+<dlgitem id="1303" text="复选框(&amp;E)" />
+<dlgitem id="14010" text="列表框(&amp;L)" />
+<dlgitem id="14012" text="按钮(&amp;U)" />
+<dlgitem id="14009" text="单选按钮(&amp;R)" />
+<dlgitem id="14011" text="文本域(&amp;T)" />
+<dlgitem id="1315" text="不透明度(&amp;P):" />
+<dlgitem id="1304" text="Slider1" />
+<dlgitem id="1319" text="设置高亮层(&amp;Y):" />
+</Dialog>
+
+<Dialog id="838" />
+<Dialog id="839" text="注册 - 福昕阅读器">
+<dlgitem id="1328" text="注册序列号" />
+<dlgitem id="2" text="试用" />
+<dlgitem id="1356" text="请把序列号文件保存到上述文件夹下或将序列号信息拷贝至上述文本框中，然后点击“注册序列号”。" />
+<dlgitem id="1357" text="如果您没有购买产品，请点击“试用”。" />
+<dlgitem id="1355" text="如果您不清楚如何正确保存序列号文件，请用记事本或其它文本编辑器打开您接收到的序列号文件，并将文件中所有信息拷贝到下列文本框中: " />
+<dlgitem id="1273" text="(注意: 该序列号文件以&quot;[Foxit Reader Pro]&quot;开头)" />
+<dlgitem id="1354" text="如果您已购买福昕阅读器，将收到一个临时序列号文件，稍后还会收到正式序列号文件。您需要把此文件(frpkey.txt)保存到下列文件夹里: " />
+<dlgitem id="1353" text="欢迎使用福昕阅读器。" />
+</Dialog>
+
+<Dialog id="842" >
+<dlgitem id="1334" text="全屏导航" />
+<dlgitem id="1336" text="显示滚动条(&amp;C)" />
+<dlgitem id="1340" text="显示书签(&amp;B)" />
+<dlgitem id="1343" text="显示退出按钮(&amp;X)" />
+<dlgitem id="1341" text="显示状态栏(&amp;T)" />
+<dlgitem id="1342" text="显示菜单栏(&amp;M)" />
+<dlgitem id="1335" text="全屏显示" />
+<dlgitem id="1338" text="背景:" />
+<dlgitem id="1344" text="每次一页(&amp;O)" />
+<dlgitem id="1345" text="点击左键翻到下一页，点击右键回到上一页(&amp;F)" />
+</Dialog>
+
+<Dialog id="843" text="福昕阅读器">
+<dlgitem id="1" text="确定" />
+<dlgitem id="1227" text="感谢您使用福昕阅读器！" />
+<dlgitem id="17001" text="不再显示此信息" />
+<dlgitem id="1065" text="新版本 3.0 将不再支持 %s 前购买的福昕阅读器专业版产品的序列号。请查看您购买产品的时间是否在 %s 之前。" />
+<dlgitem id="1359" text="您可以选择仍沿用旧版本或升级到新版本。" />
+<dlgitem id="1358" text="如果您决定升级到新版本，您必须购买升级许可。请访问我们网站（www.fuxinsoftware.com.cn）或发信到邮箱sales@foxitsoftware.com 咨询购买事宜。" />
+</Dialog>
+
+<Dialog id="844" >
+<dlgitem id="1347" text="显示文件下载对话框(&amp;S)" />
+<dlgitem id="1348" text="网页浏览器选项" />
+<dlgitem id="1349" text="在浏览器内显示PDF(&amp;D)" />
+</Dialog>
+
+<Dialog id="849" text="福昕阅读器">
+<dlgitem id="1" text="确定" />
+<dlgitem id="1245" text="感谢您使用福昕阅读器。" />
+<dlgitem id="1246" text="您现在使用的是福昕阅读器专业版的功能，未注册时您仍然可以使用所有功能，当您想保存PDF文件时，这些被修改过的页面会被附加一些评估版本的标记。" />
+<dlgitem id="17001" text="不再显示此信息" />
+<dlgitem id="1228" text="购买福昕阅读器专业版后，您就可以很容易去除这些评估版本的标记。" />
+<dlgitem id="1270" text="请访问 (www.fuxinsoftware.com.cn) 获取福昕阅读器专业版的注册信息或通过免费体验 (www.foxitsoftware.com/freeoffer) 免费获取。" />
+</Dialog>
+
+<Dialog id="851" text="福昕阅读器">
+<dlgitem id="1" text="确定" />
+<dlgitem id="1245" text="感谢您使用福昕阅读器！" />
+<dlgitem id="1246" text="您已经对文档做了修改，您可以保存它，但是您没有注册该软件，所以您所修改的页面会被附加一些评估版的标记。" />
+<dlgitem id="17001" text="不再显示此信息" />
+<dlgitem id="1228" text="购买并安装福昕表单设计工具后，您就可以很容易去除这些评估版本的标记。" />
+<dlgitem id="1270" text="请访问 (www.fuxinsoftware.com.cn) 获取福昕阅读器专业版的注册信息或通过免费体验 (www.foxitsoftware.com/freeoffer) 免费获取。" />
+</Dialog>
+
+<Dialog id="852" text="福昕阅读器">
+<dlgitem id="1" text="确定" />
+<dlgitem id="1360" text="请选择工具栏设置。" />
+<dlgitem id="1351" text="基本浏览设置" />
+<dlgitem id="1352" text="完整浏览设置" />
+</Dialog>
+
+<Dialog id="853" text="进度">
+<dlgitem id="2" text="取消" />
+<dlgitem id="1363" text="进度1" />
+<dlgitem id="1255" text="移除..." />
+</Dialog>
+
+<Dialog id="875" text="文档属性">
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="1369" text="Tab1" />
+</Dialog>
+
+<Dialog id="876" >
+<dlgitem id="1371" text="Tree1" />
+<dlgitem id="1372" text="文档中所用字体" />
+</Dialog>
+
+<Dialog id="878" text="更多工具...">
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="1378" text="Tree1" />
+</Dialog>
+
+<Dialog id="879" text="福昕阅读器">
+<dlgitem id="1" text="关闭标签" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="1379" text="确定要关闭全部标签？" />
+<dlgitem id="17001" text="不再显示此信息" />
+</Dialog>
+
+<Dialog id="889" text="全部文档">
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+</Dialog>
+
+<Dialog id="890" text="新建页属性">
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="1384" text="线宽(&amp;W):" />
+<dlgitem id="1385" text="高度(&amp;H):" />
+<dlgitem id="1386" text="页码(&amp;G)" />
+<dlgitem id="1390" text="点" />
+<dlgitem id="1391" text="点" />
+</Dialog>
+
+<Dialog id="897" text="福昕软件更新选项">
+<dlgitem id="1" text="确定" />
+<dlgitem id="1397" text="更新" />
+<dlgitem id="1376" text="自动检测福昕软件更新" />
+<dlgitem id="1405" text="每周(&amp;W)" />
+<dlgitem id="1406" text="每月(&amp;M)" />
+</Dialog>
+
+<Dialog id="905" >
+<dlgitem id="1410" text="JavaScript" />
+<dlgitem id="1376" text="响应JavaScript(&amp;E)" />
+</Dialog>
+
+<Dialog id="917" text="对话框">
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+</Dialog>
+
+<Dialog id="14201" text="多媒体内容">
+<dlgitem id="1" text="播放" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="14200" text="多媒体内容已经打开。请决定是否立即播放并为将来打开时的动作设置选项。" />
+<dlgitem id="14201" text="仅此次播放多媒体" />
+<dlgitem id="14202" text="播放多媒体内容并添加此文档到我的信任列表" />
+<dlgitem id="14203" text="将当前设置作为默认设置" />
+</Dialog>
+
+<Dialog id="14202" >
+<dlgitem id="1411" text="查阅标注" />
+<dlgitem id="1412" text="弹窗不透明度(&amp;O):" />
+<dlgitem id="1304" text="Slider1" />
+</Dialog>
+
+<Dialog id="21008" text="层属性">
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="21000" text="层名" />
+<dlgitem id="21002" text="初始状态" />
+<dlgitem id="21003" text="可视:" />
+<dlgitem id="21006" text="打印:" />
+<dlgitem id="21007" text="导出:" />
+</Dialog>
+
+<Dialog id="1002" text="跳至指定位置">
+<dlgitem id="10100" text="从下面列表选择指定位置:" />
+<dlgitem id="1" text="确定(&amp;O)" />
+<dlgitem id="2" text="取消(&amp;C)" />
+</Dialog>
+
+<Dialog id="1003" text="创建链接">
+<dlgitem id="10019" text="链接外观" />
+<dlgitem id="10024" text="线宽(&amp;I):" />
+<dlgitem id="10030" text="Spin1" />
+<dlgitem id="10021" text="边框类型(&amp;S):" />
+<dlgitem id="10023" text="高亮样式(&amp;H):" />
+<dlgitem id="10022" text="颜色(&amp;O):" />
+<dlgitem id="10020" text="链接动作" />
+<dlgitem id="10028" text="跳至页面视图(&amp;V)" />
+<dlgitem id="10025" text="转到命名位置(&amp;P)" />
+<dlgitem id="10026" text="打开/执行文件(&amp;E)" />
+<dlgitem id="10029" text="打开网页(&amp;W)" />
+<dlgitem id="10027" text="自定义链接" />
+<dlgitem id="10015" text="下一步(&amp;X)..." />
+<dlgitem id="10013" text="取消(&amp;C)" />
+</Dialog>
+
+<Dialog id="1004" text="外观">
+<dlgitem id="10116" text="链接类型(&amp;L)" />
+<dlgitem id="10114" text="边框类型(&amp;B):" />
+<dlgitem id="10115" text="线宽(&amp;T):" />
+<dlgitem id="10107" text="颜色(&amp;C)" />
+<dlgitem id="10113" text="高亮样式(&amp;H):" />
+</Dialog>
+
+<Dialog id="19000" text="显微镜工具">
+<dlgitem id="19001" text="Slider1" />
+<dlgitem id="19002" text="%" />
+<dlgitem id="19003" text="--" />
+<dlgitem id="19004" text="+" />
+<dlgitem id="19010" text="锁定" />
+</Dialog>
+
+<Dialog id="13111" text="对话框">
+<dlgitem id="13121" text="测量标记" />
+<dlgitem id="13101" text="测量" />
+<dlgitem id="13103" text="光标位置" />
+<dlgitem id="13105" text="单位和标记设置" />
+<dlgitem id="13108" text="距离:" />
+<dlgitem id="13110" text="角度:" />
+<dlgitem id="13112" text="周长:" />
+<dlgitem id="13113" text="X方向偏移量" />
+<dlgitem id="13114" text="Y方向偏移量" />
+<dlgitem id="13115" text="比例尺:" />
+<dlgitem id="13118" text="=" />
+<dlgitem id="13122" text="标注内容" />
+<dlgitem id="13021" text="请在下面设置比例尺和测量标注，然后点击你要测量的地方。" />
+</Dialog>
+
+<Dialog id="14008" text="添加图片">
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="14054" text="图片设置" />
+<dlgitem id="14055" text="位置(&amp;L):" />
+<dlgitem id="14211" text="浏览(&amp;B)..." />
+<dlgitem id="14056" text="不透明度:" />
+<dlgitem id="14057" text="旋转:" />
+<dlgitem id="14207" text="Slider1" />
+<dlgitem id="14058" text="%" />
+<dlgitem id="14212" text="高级..." />
+</Dialog>
+
+<Dialog id="14012" text="图片设置">
+<dlgitem id="14025" text="何时开始缩放(&amp;W):" />
+<dlgitem id="14026" text="缩放(&amp;S):" />
+<dlgitem id="14029" text="适合到边界(&amp;F)" />
+<dlgitem id="14030" text="边框" />
+<dlgitem id="14031" text="Slider1" />
+<dlgitem id="14032" text="Slider2" />
+<dlgitem id="14033" text="重置(&amp;R)" />
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="14024" text="使用此对话框修改图片缩放的方式，使其适合到边框" />
+<dlgitem id="14021" text="(ssssss)" />
+<dlgitem id="14023" text="图像" />
+</Dialog>
+
+<Dialog id="14015" text="外观">
+<dlgitem id="14201" text="隐藏注释(&amp;N)" />
+<dlgitem id="14059" text="边框" />
+<dlgitem id="14061" text="线宽(&amp;W):" />
+<dlgitem id="14062" text="线型(&amp;S):" />
+<dlgitem id="14063" text="颜色(&amp;O):" />
+<dlgitem id="14221" text="更改海报(&amp;P)..." />
+</Dialog>
+
+<Dialog id="14069" text="福昕阅读器">
+<dlgitem id="1" text="确定" />
+</Dialog>
+
+<Dialog id="14114" text="添加声音">
+<dlgitem id="14137" text="位置(&amp;L):" />
+<dlgitem id="14134" text="浏览(&amp;B)..." />
+<dlgitem id="14228" text="内容类型(&amp;C):" />
+<dlgitem id="14136" text="嵌入内容到文档(&amp;E)" />
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="14109" text="内容设置" />
+<dlgitem id="14128" text="海报设置" />
+<dlgitem id="14213" text="不使用海报(&amp;U)" />
+<dlgitem id="14214" text="从文件创建海报(&amp;T)" />
+<dlgitem id="14216" text="文件:" />
+<dlgitem id="14215" text="浏览(&amp;O)..." />
+</Dialog>
+
+<Dialog id="14118" text="多媒体设置">
+<dlgitem id="14139" text="注释名称(&amp;R):" />
+<dlgitem id="14143" text="多媒体剪辑位置(&amp;M):" />
+<dlgitem id="14140" text="浏览(&amp;B)..." />
+<dlgitem id="14141" text="常规注释设置" />
+<dlgitem id="14142" text="媒体注释设置" />
+<dlgitem id="14145" text="内容类型(&amp;C):" />
+<dlgitem id="14146" text="嵌入内容到文档(&amp;E)" />
+<dlgitem id="14149" text="替换注释文本(&amp;A):" />
+<dlgitem id="14150" text="允许临时文件(&amp;O):" />
+<dlgitem id="14223" text="注释允许通过JavaScript(&amp;J)访问" />
+</Dialog>
+
+<Dialog id="14121" text="重播设置">
+<dlgitem id="14151" text="重播设置" />
+<dlgitem id="14259" text="播放列表" />
+<dlgitem id="14153" text="保持播放器打开(&amp;K):" />
+<dlgitem id="14251" text="音量(&amp;V):" />
+<dlgitem id="14155" text="Spin2" />
+<dlgitem id="14252" text=" %内容音量" />
+<dlgitem id="14253" text="显示播放器控件(&amp;S)" />
+<dlgitem id="14254" text="重复(&amp;R)" />
+<dlgitem id="14255" text="连续(&amp;C)" />
+<dlgitem id="14256" text="次数(&amp;T)" />
+<dlgitem id="14258" text="Spin3" />
+<dlgitem id="14260" text="List1" />
+<dlgitem id="14261" text="添加(&amp;A)" />
+<dlgitem id="14262" text="编辑(&amp;E)" />
+<dlgitem id="14263" text="删除(&amp;D)" />
+</Dialog>
+
+<Dialog id="14123" text="指定播放器">
+<dlgitem id="14267" text="名称(&amp;N):" />
+<dlgitem id="14268" text="状态(&amp;S):" />
+<dlgitem id="14269" text="最小版本(&amp;M):" />
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+</Dialog>
+
+<Dialog id="14126" text="重播位置">
+<dlgitem id="14151" text="重播位置设置" />
+<dlgitem id="14275" text="浮动窗口设置" />
+<dlgitem id="14273" text="重播位置(&amp;P):" />
+<dlgitem id="14274" text="背景色(&amp;B):" />
+<dlgitem id="14276" text="显示标题栏(&amp;S)" />
+<dlgitem id="14277" text="显示控件关闭窗口(&amp;O)" />
+<dlgitem id="14286" text="标题文本(&amp;T):" />
+<dlgitem id="14287" text="重设大小(&amp;R):" />
+<dlgitem id="14288" text="窗口位置(&amp;W):" />
+<dlgitem id="14289" text="关联到(&amp;E):" />
+<dlgitem id="14290" text="宽度(&amp;D):" />
+<dlgitem id="14291" text="高度(&amp;H):" />
+<dlgitem id="14292" text="如果窗口在屏幕外(&amp;F):" />
+</Dialog>
+
+<Dialog id="14200" text="设置">
+<dlgitem id="14064" text="位置(&amp;O):" />
+<dlgitem id="14004" text="浏览(&amp;B)..." />
+<dlgitem id="14054" text="图片设置" />
+<dlgitem id="14056" text="不透明度(&amp;P):" />
+<dlgitem id="14057" text="旋转(&amp;R):" />
+<dlgitem id="14300" text="Slider1" />
+<dlgitem id="14058" text="%" />
+<dlgitem id="14013" text="高级(&amp;A)..." />
+</Dialog>
+
+<Dialog id="14202" text="输入影像的 URL">
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="14202" text="位置(L&amp;O)(&amp;O):" />
+</Dialog>
+
+<Dialog id="14203" text="录音机">
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="14204" text="浏览..." />
+</Dialog>
+
+<Dialog id="14204" text="设置">
+<dlgitem id="14099" text="注释标题(&amp;N):" />
+<dlgitem id="14102" text="替换文本(&amp;T):" />
+<dlgitem id="14106" text="注释" />
+<dlgitem id="14108" text="与事件对应的注释列表(&amp;S):" />
+<dlgitem id="14117" text="添加(&amp;A)..." />
+<dlgitem id="14120" text="编辑(&amp;E)..." />
+<dlgitem id="14124" text="删除(&amp;D)" />
+<dlgitem id="14218" text="上移(&amp;U)" />
+<dlgitem id="14219" text="下移(&amp;O)" />
+</Dialog>
+
+<Dialog id="14205" />
+<Dialog id="14206" text="添加影像">
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="14132" text="位置(&amp;L):" />
+<dlgitem id="14131" text="浏览(&amp;B)..." />
+<dlgitem id="14220" text="内容类型(&amp;C):" />
+<dlgitem id="14222" text="嵌入内容到文档(&amp;E)" />
+<dlgitem id="14210" text="内容设置" />
+<dlgitem id="14204" text="海报设置" />
+<dlgitem id="14110" text="不使用海报(&amp;U)" />
+<dlgitem id="14112" text="从影像撷取海报(&amp;R)" />
+<dlgitem id="14207" text="从文件创建海报(&amp;T)" />
+<dlgitem id="14209" text="文件:" />
+<dlgitem id="14208" text="浏览(&amp;W)..." />
+</Dialog>
+
+<Dialog id="14212" text="用 URL 添加新注释">
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="14225" text="位置(&amp;L):" />
+<dlgitem id="14226" text="内容类型(&amp;C):" />
+</Dialog>
+
+<Dialog id="14213" text="复制注释">
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="14227" text="需要复制的注释(&amp;R):" />
+<dlgitem id="14230" text="请从上面列表选择您想复制的注释。" />
+</Dialog>
+
+<Dialog id="14214" text="改变海报">
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="14214" text="海报设定" />
+<dlgitem id="14215" text="不使用海报(&amp;U)" />
+<dlgitem id="14216" text="从影像撷取海报(&amp;R)" />
+<dlgitem id="14217" text="从文件创建海报(&amp;C)" />
+<dlgitem id="14219" text="文件:" />
+<dlgitem id="14218" text="浏览(&amp;B)..." />
+</Dialog>
+
+<Dialog id="14215" text="用文件添加新注释">
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="14236" text="位置(&amp;L):" />
+<dlgitem id="14233" text="浏览(&amp;B)..." />
+<dlgitem id="14237" text="内容类型(&amp;C):" />
+<dlgitem id="14235" text="嵌入内容到文档(&amp;E)" />
+</Dialog>
+
+<Dialog id="14216" text="常规">
+<dlgitem id="14239" text="标题(&amp;T):" />
+<dlgitem id="14240" text="多媒体位置" />
+<dlgitem id="14241" text="本地文件(&amp;O)" />
+<dlgitem id="14242" text="&amp;URL(&amp;U)" />
+<dlgitem id="14243" text="浏览(&amp;B)..." />
+</Dialog>
+
+<Dialog id="14217" text="重播">
+<dlgitem id="14245" text="显示播放器控件(&amp;W)" />
+<dlgitem id="14246" text="使用浮动窗口(&amp;U)" />
+<dlgitem id="14249" text="大小(&amp;S):" />
+<dlgitem id="14250" text="播放(&amp;P):" />
+</Dialog>
+
+<Dialog id="14218" text="外观">
+<dlgitem id="14207" text="图标(&amp;I):" />
+<dlgitem id="14208" text="颜色(&amp;O):" />
+<dlgitem id="14210" text="不透明度(&amp;P):" />
+<dlgitem id="14212" text="Slider1" />
+<dlgitem id="14213" text="%" />
+</Dialog>
+
+<Dialog id="14228" text="捕获图像">
+<dlgitem id="14225" text="捕获(&amp;T)" />
+<dlgitem id="2" text="取消(&amp;C)" />
+<dlgitem id="14224" text="设定(&amp;S)" />
+</Dialog>
+
+<Dialog id="14229" text="捕获视频">
+<dlgitem id="2" text="取消(&amp;C)" />
+<dlgitem id="14226" text="停止(&amp;P)" />
+<dlgitem id="14227" text="设置(&amp;T)" />
+<dlgitem id="14228" text="开始(&amp;S)" />
+</Dialog>
+
+<Dialog id="14230" text="捕获视频设定">
+<dlgitem id="1" text="确定(&amp;O)" />
+<dlgitem id="2" text="取消(&amp;C)" />
+<dlgitem id="14229" text="音频设定" />
+<dlgitem id="14230" text="视频设定" />
+<dlgitem id="14231" text="捕获音频(&amp;A)" />
+<dlgitem id="14232" text="格式(&amp;O)" />
+<dlgitem id="14233" text="帧率(&amp;F)" />
+<dlgitem id="14235" text="Spin1" />
+<dlgitem id="14236" text="启用时间限制(&amp;T)" />
+<dlgitem id="14239" text="秒(&amp;S):" />
+<dlgitem id="14238" text="Spin2" />
+<dlgitem id="14240" text="格式(&amp;M)" />
+<dlgitem id="14241" text="压缩(&amp;P)" />
+<dlgitem id="14244" text="来源(&amp;R)" />
+<dlgitem id="14245" text="设备(&amp;D)..." />
+</Dialog>
+
+<Dialog id="14231" text="捕获图像设定">
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+<dlgitem id="14248" text="设备(&amp;D)..." />
+<dlgitem id="14249" text="视频来源(&amp;S)..." />
+<dlgitem id="14250" text="视频格式(&amp;F)..." />
+</Dialog>
+
+<Dialog id="14239" text="URL 定位确认">
+<dlgitem id="1" text="确定" />
+<dlgitem id="2" text="取消" />
+</Dialog>
+
+<Dialog id="28315" >
+<dlgitem id="28316" text="Progress1" />
+</Dialog>
+
+<Dialog id="17100" text="福昕阅读器">
+<dlgitem id="1" text="确定" />
+<dlgitem id="17000" text="所选区域已经被复制到剪贴板." />
+<dlgitem id="17001" text="不再显示此信息" />
+</Dialog>
+
+<Dialog id="4006" text="注释类型">
+<dlgitem id="4007" text="注释类型" />
+</Dialog>
+
+</Dialogs>
+<Strings>
+<string id="10000" text="页码: %d" />
+<string id="10001" text="文档: 本文档" />
+<string id="10002" text="缩放水平:" />
+<string id="10003" text="文档: %s" />
+<string id="10004" text="文件: %s" />
+<string id="10005" text="跳至页面: 首页" />
+<string id="10006" text="跳至页面: 尾页" />
+<string id="10007" text="跳至页面: 后页" />
+<string id="10008" text="跳至页面: 前页" />
+<string id="10009" text="位置菜单项/命令" />
+<string id="10010" text="空信息" />
+<string id="10011" text="未知触发器" />
+<string id="10012" text="未知行为" />
+<string id="10013" text="URL: %s" />
+<string id="10014" text="自定义" />
+<string id="10015" text="适合页面高度" />
+<string id="10016" text="适合页面" />
+<string id="10017" text="适合页面宽度" />
+<string id="10018" text="3D" />
+<string id="10019" text="脱字符" />
+<string id="10020" text="圆" />
+<string id="10021" text="选取任意注释" />
+<string id="10022" text="文件附件" />
+<string id="10023" text="自由文本" />
+<string id="10024" text="高亮" />
+<string id="10025" text="墨水" />
+<string id="10026" text="线条" />
+<string id="10027" text="连接" />
+<string id="10028" text="影片" />
+<string id="10029" text="多边形" />
+<string id="10030" text="折线" />
+<string id="10031" text="弹出" />
+<string id="10032" text="打印标记" />
+<string id="10033" text="屏幕" />
+<string id="10034" text="声音" />
+<string id="10035" text="正方形" />
+<string id="10036" text="波浪线" />
+<string id="10037" text="图章" />
+<string id="10038" text="删除线" />
+<string id="10039" text="文本" />
+<string id="10040" text="注释选择工具" />
+<string id="10041" text="网络陷阱" />
+<string id="10042" text="下划线" />
+<string id="10043" text="水印" />
+<string id="10044" text="控件" />
+<string id="10045" text="注释" />
+<string id="10046" text="已接受" />
+<string id="10047" text="已取消" />
+<string id="10048" text="已完成" />
+<string id="10049" text="已确认" />
+<string id="10050" text="标记" />
+<string id="10051" text="迁移确认" />
+<string id="10052" text="无迁移" />
+<string id="10053" text="待迁移" />
+<string id="10054" text="迁移状态" />
+<string id="10055" text="未确认" />
+<string id="10056" text="外观" />
+<string id="10057" text="常规" />
+<string id="10058" text="信息" />
+<string id="10059" text="审阅历史记录" />
+<string id="10060" text="已拒绝" />
+<string id="10061" text="复核" />
+<string id="10062" text="所有文件 (*.*)|*.*||" />
+<string id="10063" text="未标记" />
+<string id="10064" text="凸起" />
+<string id="10065" text="云朵" />
+<string id="10066" text="虚线" />
+<string id="10067" text="凹陷" />
+<string id="10068" text="实线" />
+<string id="10069" text="下划线" />
+<string id="10071" text="关闭(&amp;C)" />
+<string id="10072" text="云朵样式(&amp;P):" />
+<string id="10073" text="无填充色" />
+<string id="10074" text="其他颜色..." />
+<string id="10076" text="确认" />
+<string id="10077" text="虚线样式(&amp;P):" />
+<string id="10078" text="你确定删除该虚线样式项吗？" />
+<string id="10079" text="间隙" />
+<string id="10080" text="间隙不能为空，请输入有效值！" />
+<string id="10081" text="长度不能空，请输入有效值！" />
+<string id="10082" text="长度" />
+<string id="10083" text="未选取项!" />
+<string id="10085" text="福昕阅读器" />
+<string id="10087" text="PDF 表单数据文件 (*.FDF)|*.FDF|所有文件 (*.*)|*.*||" />
+<string id="10088" text="所有文件(*.*)|*.*||" />
+<string id="10089" text="内陷" />
+<string id="10090" text="反色" />
+<string id="10091" text="无" />
+<string id="10092" text="边框" />
+<string id="10093" text="无\n空心三角形\n实心三角形\n空心三角形（反向）\n实心三角形（反向）\n平头\n菱形\n圆形\n正方形\n斜线" />
+<string id="10099" text="云朵 1\n云朵 2" />
+<string id="10100" text="虚线 1\n虚线 2\n虚线 3\n虚线 4\n虚线 5\n虚线 6\n自定义..." />
+<string id="10101" text="跳至页面视图\n打开/执行文件\n打开web页\n显示/隐藏域\n执行菜单项\n提交表单\n重置表单\n导入表单数据\n运行JavaScript程序" />
+<string id="10102" text="鼠标弹起\n鼠标按下\n鼠标进入\n鼠标离开\n页面可视\n页面隐藏\n页面进入\n页面退出\n获得焦点\n失去焦点" />
+<string id="10104" text="锁定(&amp;L)" />
+<string id="10105" text="标记" />
+<string id="10106" text="&quot;迁移&quot;历史记录" />
+<string id="10107" text="(不相同)" />
+<string id="10108" text="文本插入工具" />
+<string id="10109" text="椭圆工具" />
+<string id="10110" text="文件附件工具" />
+<string id="10111" text="打字机工具" />
+<string id="10112" text="文本高亮工具" />
+<string id="10113" text="铅笔工具" />
+<string id="10114" text="线条工具" />
+<string id="10115" text="标记工具" />
+<string id="10116" text="多边形工具" />
+<string id="10117" text="折线工具" />
+<string id="10118" text="声音附件" />
+<string id="10119" text="矩形工具" />
+<string id="10120" text="文本下划线工具" />
+<string id="10121" text="图章工具" />
+<string id="10122" text="文本删除线工具" />
+<string id="10123" text="附注工具" />
+<string id="10124" text="文本下划线工具" />
+<string id="10125" text="属性" />
+<string id="10128" text="&quot;审阅&quot;历史记录" />
+<string id="10129" text="可视矩形\n不可见矩形" />
+<string id="10130" text="E-mail 地址:" />
+<string id="10131" text="目标地址无效，请输入有效地址." />
+<string id="10132" text="福昕阅读器" />
+<string id="10133" text="FDF 文件:" />
+<string id="10134" text="FTP 地址:" />
+<string id="10135" text="HTTP 地址:" />
+<string id="10137" text="3D" />
+<string id="10138" text="按钮" />
+<string id="10139" text="文本插入工具" />
+<string id="10140" text="复选框" />
+<string id="10141" text="椭圆" />
+<string id="10142" text="组合框" />
+<string id="10143" text="文件附件" />
+<string id="10144" text="文本框" />
+<string id="10145" text="文本高亮工具" />
+<string id="10146" text="铅笔工具" />
+<string id="10147" text="线条" />
+<string id="10148" text="链接" />
+<string id="10149" text="列表框" />
+<string id="10150" text="影视" />
+<string id="10151" text="多边形工具" />
+<string id="10152" text="折线工具" />
+<string id="10153" text="弹出" />
+<string id="10154" text="打印标记" />
+<string id="10155" text="单选按钮" />
+<string id="10156" text="多媒体" />
+<string id="10157" text="签名" />
+<string id="10158" text="声音" />
+<string id="10159" text="矩形工具" />
+<string id="10160" text="文本波浪线工具" />
+<string id="10161" text="图章" />
+<string id="10162" text="文本删除线工具" />
+<string id="10163" text="附注工具" />
+<string id="10164" text="文本域" />
+<string id="10165" text="网络陷阱" />
+<string id="10166" text="文本下划线工具" />
+<string id="10167" text="水印" />
+<string id="10168" text="控件" />
+<string id="10170" text="注释选择工具" />
+<string id="10173" text="动作" />
+<string id="10174" text="书签" />
+<string id="10175" text="打字机" />
+<string id="10176" text="标注" />
+<string id="19800" text="确实要将当前位置与所选书签进行链接吗？" />
+<string id="19801" text="书签属性" />
+<string id="19802" text="无填充色" />
+<string id="19803" text="其他颜色..." />
+<string id="19804" text="确定" />
+<string id="19805" text="取消" />
+<string id="19806" text="常规" />
+<string id="19807" text="斜体" />
+<string id="19808" text="粗体" />
+<string id="19809" text="粗斜体(&amp; )" />
+<string id="19810" text="外观" />
+<string id="19820" text="行为" />
+<string id="19850" text="添加书签(&amp;A)" />
+<string id="19851" text="跳至书签" />
+<string id="19852" text="设置跳转位置" />
+<string id="19853" text="删除" />
+<string id="19854" text="剪切" />
+<string id="19855" text="粘贴到所选书签下面" />
+<string id="19856" text="粘贴到所选书签后面" />
+<string id="19857" text="重命名" />
+<string id="19858" text="重命名标题末尾" />
+<string id="19859" text="使用当前外观作为新默认" />
+<string id="19860" text="属性" />
+<string id="19861" text="属性已经更改" />
+<string id="19880" text="无标题" />
+<string id="19881" text="书签工具栏" />
+<string id="19882" text="书签" />
+<string id="8580" text="文本高亮工具" />
+<string id="8584" text="文本下划线工具" />
+<string id="8585" text="文本下划线工具" />
+<string id="8589" text="文本删除线工具" />
+<string id="8590" text="文本删除线工具" />
+<string id="8603" text="文本波浪线工具" />
+<string id="8604" text="文本波浪线工具" />
+<string id="8605" text="文本插入工具" />
+<string id="8606" text="文本插入工具" />
+<string id="8607" text="文本高亮工具" />
+<string id="8608" text="创建高亮标注" />
+<string id="8609" text="文本下划线工具" />
+<string id="8610" text="创建下划线标注" />
+<string id="8611" text="文本删除线工具" />
+<string id="8612" text="创建删除线标注" />
+<string id="8613" text="文本波浪线工具" />
+<string id="8614" text="创建波浪线标注" />
+<string id="8615" text="文本插入工具" />
+<string id="8616" text="创建插入标注" />
+<string id="8617" text="文本注释工具" />
+<string id="8624" text="文本替换工具" />
+<string id="8626" text="文本注释工具" />
+<string id="8628" text="文本注释工具" />
+<string id="8629" text="文本编辑工具" />
+<string id="8630" text="文本编辑工具" />
+<string id="8631" text="文本替换工具" />
+<string id="8632" text="文本下划线工具" />
+<string id="8633" text="文本插入工具" />
+<string id="8634" text="文本高亮工具" />
+<string id="8635" text="文本波浪线工具" />
+<string id="8636" text="文本删除线工具" />
+<string id="8637" text="文本替换工具" />
+<string id="6000" text="铅笔工具" />
+<string id="6001" text="铅笔橡皮擦工具" />
+<string id="6002" text="箭头工具" />
+<string id="6003" text="线条工具" />
+<string id="6004" text="正方形工具" />
+<string id="6005" text="圆形工具" />
+<string id="6006" text="多边形工具" />
+<string id="6007" text="折线工具" />
+<string id="6008" text="云形工具" />
+<string id="6009" text="尺寸标记工具" />
+<string id="6010" text="矩形工具" />
+<string id="6011" text="椭圆工具" />
+<string id="6012" text="箭头工具" />
+<string id="6013" text="创建箭头标注" />
+<string id="6014" text="线条工具" />
+<string id="6015" text="创建线条标注" />
+<string id="6016" text="尺寸标记工具" />
+<string id="6017" text="创建尺寸标记标注" />
+<string id="6018" text="正方形工具" />
+<string id="6019" text="创建正方形标注" />
+<string id="6020" text="矩形工具" />
+<string id="6021" text="创建矩形标注" />
+<string id="6022" text="圆形工具" />
+<string id="6023" text="创建圆标注" />
+<string id="6024" text="椭圆工具" />
+<string id="6025" text="创建椭圆标注" />
+<string id="6026" text="多边形工具" />
+<string id="6027" text="创建多边形标注" />
+<string id="6028" text="云形工具" />
+<string id="6029" text="创建云形标注" />
+<string id="6030" text="折线工具" />
+<string id="6031" text="创建折线标注" />
+<string id="6032" text="铅笔工具" />
+<string id="6033" text="在当前页画图" />
+<string id="6034" text="铅笔橡皮擦工具" />
+<string id="6035" text="去除铅笔画图路径" />
+<string id="6036" text="绘图" />
+<string id="6037" text="铅笔工具" />
+<string id="6038" text="线条工具" />
+<string id="6039" text="椭圆工具" />
+<string id="6040" text="多边形工具" />
+<string id="6041" text="折线工具" />
+<string id="6042" text="矩形工具" />
+<string id="6043" text="圆形工具" />
+<string id="6044" text="正方形工具" />
+<string id="6045" text="箭头工具" />
+<string id="6046" text="尺寸标记工具" />
+<string id="6047" text="云形工具" />
+<string id="6048" text="平方" />
+<string id="6049" text="定制" />
+<string id="15550" text="保存附件至硬盘" />
+<string id="15551" text="打开文件附件" />
+<string id="15552" text="图标设置" />
+<string id="15553" text="保存" />
+<string id="15554" text="附件注释" />
+<string id="15555"  />
+<string id="15556" text="标签" />
+<string id="15557" text="纸夹" />
+<string id="15558" text="图表" />
+<string id="15559" text="附件" />
+<string id="15560" text="无法打开文件: %s \n 文件路径错误。" />
+<string id="15561" text="文件太大，无法上传。\n文件最大长度为64MB。" />
+<string id="15562" text="添加附件时发生错误。" />
+<string id="15563" text="无法保存文件。" />
+<string id="15564" text="您的安全设置拒绝添加此类型的附件。" />
+<string id="15565" text="因为您的安全设置问题，程序无法打开该类型的附件。" />
+<string id="15566" text="因为您的安全设置问题，程序无法保存该类型的附件。" />
+<string id="15567" text="无法打开附件。" />
+<string id="15568" text="没有与附件相关联的应用程序" />
+<string id="15569" text="名称" />
+<string id="15570" text="说明" />
+<string id="15571" text="已修改" />
+<string id="15572" text="大小" />
+<string id="15573" text="扩展名" />
+<string id="15574" text="策略" />
+<string id="15575" text="添加附件" />
+<string id="15576" text="添加附件" />
+<string id="15577" text="附件注释" />
+<string id="15578" text="FAA_IconSetting" />
+<string id="15579" text="文件附件工具" />
+<string id="15580" text="文件附件工具" />
+<string id="15581"  />
+<string id="15582" text="所有文件 (*.*)|*.*||" />
+<string id="15583" text="%s 文件 (*.%s)|*.%s|所有文件 (*.*)|*.*||" />
+<string id="15584" text="文件附件" />
+<string id="15585" text="您输入的扩展名无效。" />
+<string id="15586" text="请输入扩展名" />
+<string id="15587" text="一个附件已被修改，您要升级它的源文件吗？" />
+<string id="15588" text="附件的变化没有加入到源文件中，请您及时保存您的修改。" />
+<string id="15589" text="无法找到该文件。" />
+<string id="15590" text="全部或部分路径无效。" />
+<string id="15591" text="这个文件不能读取." />
+<string id="15592" text="发生不可预期的错误。" />
+<string id="15593" text="文件名包含非法字符" />
+<string id="15078" text="搜索" />
+<string id="15079" text="停止" />
+<string id="15080" text="查找内容:" />
+<string id="15081" text="查找内容:" />
+<string id="15082" text="新建搜索" />
+<string id="15083" text="搜索结束" />
+<string id="15084" text="PDF 搜索" />
+<string id="15085" text="高级搜索" />
+<string id="15086" text="解析内容错误。" />
+<string id="15087" text="福昕阅读器" />
+<string id="15088" text="阅读器已完成文档搜索，未找到查找对象。" />
+<string id="15089" text="选择您要搜索的文件夹。" />
+<string id="15090" text="页码:" />
+<string id="15091" text="&lt;用户选择搜索路径&gt;" />
+<string id="15092" text="当前文档" />
+<string id="15093" text="查找工具" />
+<string id="15094" text="高级搜索" />
+<string id="15095" text="/" />
+<string id="15096" text="查找上一个" />
+<string id="15097" text="查找下一个" />
+<string id="15098" text="查找:" />
+<string id="15100" text="阅读器已完成文档搜索，未找到查找对象。" />
+<string id="9043" text="格式工具" />
+<string id="9044" text="Courier" />
+<string id="9045" text="Helvetica" />
+<string id="9046" text="符号" />
+<string id="9047" text="Times Roman" />
+<string id="9048" text="ZapfDingbats" />
+<string id="9049" text="English" />
+<string id="9050" text="符号" />
+<string id="9051" text="对不起,值必须在%d 和%d 之间." />
+<string id="9052" text="对不起，请在%.2f-%.2f之间输入。" />
+<string id="9055" text="文本颜色" />
+<string id="9056" text="边框颜色" />
+<string id="9057" text="填充颜色" />
+<string id="9058" text="粗体" />
+<string id="9059" text="倾斜" />
+<string id="9060" text="下划线" />
+<string id="9061" text="删除线" />
+<string id="9062" text="上标" />
+<string id="9063" text="下标" />
+<string id="9064" text="左对齐" />
+<string id="9065" text="居中对齐" />
+<string id="9066" text="右对齐" />
+<string id="9067" text="两端对齐" />
+<string id="9068" text="字符间距" />
+<string id="9069" text="字符水平比例" />
+<string id="9070" text="行间距" />
+<string id="9071" text="段间距" />
+<string id="9072" text="左缩进" />
+<string id="9073" text="右缩进" />
+<string id="9074" text="插入符号" />
+<string id="9123" text="左缩进" />
+<string id="9124" text="右缩进" />
+<string id="9133" text="属性工具" />
+<string id="9134" text="填充颜色" />
+<string id="9135" text="不透明度" />
+<string id="9140" text="为注释工具选取颜色" />
+<string id="9141" text="设置注释工具的不透明度" />
+<string id="20002" text="警告" />
+<string id="20003" text="参数量错误！" />
+<string id="20004" text="输入值无效." />
+<string id="20005" text="输入出错！" />
+<string id="20006" text="输入的值太长了。" />
+<string id="20007" text="输入的字符串不能被解析为一个有效的日期时间(%s)。" />
+<string id="20008" text="数值无效: 必须大于或等于%s，而又小于或等于%s。" />
+<string id="20009" text="数值无效: 必须大于或等于%s。" />
+<string id="20010" text="数值无效: 必须小于或等于%s。" />
+<string id="20011" text="错误: 输入值超出范围" />
+<string id="20012" text="打开文件失败." />
+<string id="20013" text="注意" />
+<string id="20014" text="提交表单成功！" />
+<string id="20015" text="发送表格失败!" />
+<string id="20016" text="不支持." />
+<string id="20017" text="系统正忙！" />
+<string id="20018" text="表单域事件已存在！" />
+<string id="20019" text="成功运行。" />
+<string id="20020" text="未知错误！" />
+<string id="20021" text="第二个参数不能被转换成日期！" />
+<string id="20022" text="第二个参数不是一个有效日期！" />
+<string id="20023" text="该文档试图链接网站\r\n%s\r\n如果你信任这个网站，请单击&quot;是&quot;按钮。否则请单击&quot;否&quot;按钮。"/>
+<string id="100" text="OLE 初始化失败. 请确定 OLE 库为当前版本." />
+<string id="128" text="福昕阅读器 V3.0" />
+<string id="129" text="PDF\n
+PDF\n
+PDF Files(*.pdf)\n
+.pdf\n
+FoxitReader.Document\n
+PDF Document  \n" />
+<string id="130" text="FDF\n
+FDF\n
+FDF Files(*.fdf)\n
+.fdf\n
+FoxitReader.FDFDoc\n
+FDF Document" />
+<string id="1022"  />
+<string id="2015" text="2005-2008 福昕软件 保留所有权力." />
+<string id="2016" text="3.0 Build 1120" />
+<string id="2017" text="想设置其它PDF阅读器为默认的阅读器，您需要运行其他阅读器，并把它设置为默认。" />
+<string id="2020" text="文件被加密，请输入密码。" />
+<string id="2021" text="太好了！福昕产品是免费的！" />
+<string id="2022" text="点击此处您将获得如何使用我们的文本输入功能在任何 PDF 文档上输入文本!" />
+<string id="2023" text="点击此处您将获得如何修改任何一个已经存在的PDF文件！" />
+<string id="2024" text="您现在可以使用我们的文本输入功能在任何 PDF 文档上输入文本\n\n只要按下工具栏上的&quot;文本输入&quot; 按钮,或选择菜单栏&quot;编辑t&quot;下的 &quot;文本输入&quot;,然后在文本的任何地方点击文档,就可以开始输入了!\n\n您也可以自己输入您要输入的文档内容并用打印机打印出来." />
+<string id="2026" text="打开文档错误.文档已损坏并且无法修复." />
+<string id="2027" text="没有找到指定页:" />
+<string id="2028" text="无法打开应用程序." />
+<string id="2029" text="在这个文档里没有页码为&apos;%s&apos;的页面." />
+<string id="2031" text="版权所有 (C)" />
+<string id="2034" text="版本" />
+<string id="2035" text="没有找到该字符串" />
+<string id="2036" text="福昕阅读器已经完成文档搜索." />
+<string id="2037" text="对不起, 禁止打印文档.\n\n原因: 文档受保护禁止打印." />
+<string id="2038" text="对不起, 禁止复制本文档文本.\n\n原因: 文档受保护禁止复制文本." />
+<string id="2039" text="对不起，禁止保存文档。您只可保存一份原始文档。\n\n原因: 文档受保护，禁止保存文档。" />
+<string id="2040" text="无法保存文档.文件已打开." />
+<string id="2041" text="在您执行打印任务(如页面设置,打印文档...)前必须先安装打印机., 您必须安装打印机.\n" />
+<string id="2042" text="无法保存文档,本文件为只读或其他用户已经打开文件,请用其他文件名保存或更改保存路径." />
+<string id="2043" text="原文档" />
+<string id="2044" text="文档和注释" />
+<string id="2045" text="文档和注释" />
+<string id="2046" text="文档" />
+<string id="2047" text="退出前是否保存对“%s”的修改？" />
+<string id="2048" text="注释" />
+<string id="2050" text="单页" />
+<string id="2051" text="连续" />
+<string id="2052" text="对开" />
+<string id="2053" text="连续-对开" />
+<string id="2054" text="实际大小" />
+<string id="2055" text="适合页面" />
+<string id="2056" text="适合宽度" />
+<string id="2057" text="文件工具" />
+<string id="2058" text="导航" />
+<string id="2059" text="缩放工具" />
+<string id="2060" text="旋转视图工具" />
+<string id="2061" text="基本工具栏" />
+<string id="2062" text="文本查看器" />
+<string id="2063" text="全屏" />
+<string id="2064" text="帮助" />
+<string id="2065" text="查找" />
+<string id="2070" text="该操作需要下载福昕阅读器的(%s)组件，如需手动下载请到www.fuxinsoftware.com.cn上下载更新。" />
+<string id="2071" text="下载失败..." />
+<string id="2072" text="检查更新..." />
+<string id="2073" text="下载更新" />
+<string id="2074" text="安装更新" />
+<string id="2075" text="暂停(&amp;P)" />
+<string id="2076" text="继续(&amp;C)" />
+<string id="2077" text="执行(&amp;D)" />
+<string id="2078" text="小时" />
+<string id="2079" text="分" />
+<string id="2080" text="秒" />
+<string id="2081" text="专业版" />
+<string id="2082" text="忙" />
+<string id="2083" text="打印舱未关" />
+<string id="2084" text="错误状态" />
+<string id="2085" text="正在初始化" />
+<string id="2086" text="在活动的输入/输出状态" />
+<string id="2087" text="手动送纸" />
+<string id="2088" text="墨盒用尽" />
+<string id="2089" text="无法打印" />
+<string id="2090" text="脱机状态" />
+<string id="2091" text="内存耗尽" />
+<string id="2092" text="输出纸盒已满" />
+<string id="2093" text="无法打印当前页" />
+<string id="2094" text="打印机卡纸" />
+<string id="2095" text="缺纸" />
+<string id="2096" text="纸张问题" />
+<string id="2097" text="暂停" />
+<string id="2098" text="删除打印作业" />
+<string id="2099" text="处于省电模式" />
+<string id="2100" text="打印中" />
+<string id="2101" text="正在执行打印作业" />
+<string id="2102" text="未知状态" />
+<string id="2103" text="墨快用完了" />
+<string id="2104" text="需要人工操作" />
+<string id="2105" text="等待" />
+<string id="2106" text="准备中" />
+<string id="2107" text="就绪" />
+<string id="2108" text="书签" />
+<string id="2109" text="页面" />
+<string id="2110" text="隐藏工具栏" />
+<string id="2111" text="显示工具栏" />
+<string id="2112" text="PDF 文件" />
+<string id="2113" text="所有文件" />
+<string id="2114" text="基本工具" />
+<string id="2115" text="注释工具" />
+<string id="2116" text="表单工具" />
+<string id="2117" text="图形标注工具" />
+<string id="2118" text="文本工具" />
+<string id="2119" text="常规" />
+<string id="2120" text="文档颜色" />
+<string id="2121" text="页面显示" />
+<string id="2122" text="适合纸张" />
+<string id="2123" text="实际大小" />
+<string id="2124" text="无" />
+<string id="2125" text="每张纸上放置多页" />
+<string id="2126" text="正常" />
+<string id="2127" text="顺时针" />
+<string id="2128" text="逆时针" />
+<string id="2129" text="英寸" />
+<string id="2130" text="范围中的所有页" />
+<string id="2131" text="仅奇数页面" />
+<string id="2132" text="仅偶数页面" />
+<string id="2133" text="自定义..." />
+<string id="2134" text="缩放倍数必须是在&apos;实际大小&apos;&apos;适合页面&apos;,&apos;适合宽度&apos;或者是%s 和 %s之间的一个数值" />
+<string id="2135" text="请输入一个在 %s 和 %s之间的数值." />
+<string id="2136" text="尺寸" />
+<string id="2137" text="关于福昕阅读器(&amp;A)..." />
+<string id="2138" text="关于福昕阅读器专业版(&amp;A)..." />
+<string id="2139" text="横向" />
+<string id="2140" text="逆页序横向" />
+<string id="2141" text="纵向" />
+<string id="2142" text="逆页序纵向" />
+<string id="2143" text="正在查找 %d / %d" />
+<string id="2144" text="正在打印 %d / %d : %d" />
+<string id="2145" text="转化文件" />
+<string id="2146" text="这个文档试图连接:\n\n%s\n\n如果您信任这个网站, 单击 &quot;是&quot;, 否则单击 &quot;否&quot;\n" />
+<string id="2147" text="安全警告" />
+<string id="2148" text="请按 &apos;下载&apos; 按钮开始." />
+<string id="2149" text="更新安装进程完成,请按 &apos;执行&apos; 按钮关闭窗口." />
+<string id="2150" text="安装失败." />
+<string id="2151" text="文件失败: 没有找到或打不开." />
+<string id="2152" text="格式错误: 不是一个 PDF 文件或该文件损坏" />
+<string id="2153" text="错误密码. 重新输入." />
+<string id="2154" text="这个文档被一些不支持的机制所加密" />
+<string id="2155" text="无法打开文件或文件找不到!" />
+<string id="2156" text="福昕阅读器" />
+<string id="2157" text="不能打开该表单数据文件或该文件找不到!" />
+<string id="2158" text="导出表单数据到文件:\n\n%s\n\n成功!" />
+<string id="2159" text="信息" />
+<string id="2160" text="不能导出或访问该表单文件!" />
+<string id="2161" text="从文件:\n\n%s\n\n导入表单数据成功!" />
+<string id="2162" text="不能导入或访问该表单文件!" />
+<string id="2163" text="确认" />
+<string id="2164" text="这个选项将重置表单数据为默认的值.\n可能会丢失数据，您确定吗?\n\n按 &quot;确定&quot; 按钮确认, 或 &quot;取消&quot; 按钮拒绝." />
+<string id="2165" text="不能重置或访问该表单文件!" />
+<string id="2166" text="表单" />
+<string id="2167" text="*重要的更新" />
+<string id="2168" text="默认的位置" />
+<string id="2169" text="表单域下面" />
+<string id="2170" text="表单域上面" />
+<string id="2171" text="对不起，禁止复制本文档文本。\n\n原因: 文档受保护，禁止复制文本。" />
+<string id="2172" text="扩展此按钮" />
+<string id="2173" text="显示%s栏" />
+<string id="2174" text="显示该工具栏" />
+<string id="2175" text="因特网" />
+<string id="2176" text="对不起，您的注册码已过期或您输入的内容不正确。\n请重新尝试。若您想试用福昕阅读器，请按&apos;试用&apos;按钮." />
+<string id="2177" text="您已成功注册临时注册码。" />
+<string id="2178" text="您已成功注册正式注册码。" />
+<string id="2179" text="无法打开剪贴板。" />
+<string id="2180" text="下载失败，可能由于您的网络处于断开或忙碌状态。\n您可访问以下地址：\nhttp://www.fuxinsoftware.com.cn/downloads/下载%s组件。" />
+<string id="2182" text="您于&apos;%s&apos;之前购买的福昕软件专业包注册码不支持3.0版本。请确认您是否是于&apos;%s&apos;之前购买。" />
+<string id="2183" text="点击此处了解更多关于福昕工具栏" />
+<string id="2184" text="移除 %d / %d" />
+<string id="2185" text="该PDF文件无任何试用标记。" />
+<string id="2186" text="已删除所有试用标记。" />
+<string id="2187" text="已删除所有由注释添加的试用标记。" />
+<string id="2188" text="已删除所有有福昕表单设计工具添加的试用标记。" />
+<string id="2189" text="对不起，无法删除试用标记因为你没有权限从PDF文件中删除它。" />
+<string id="2190" text="基本工具栏(&amp;B)" />
+<string id="2191" text="完整工具栏(&amp;F)" />
+<string id="2192" text="重新注册" />
+<string id="2193" text="注册" />
+<string id="2194" text="该操作将替换福昕阅读器目录下的frpkey.txt文件。您确定要替换吗？" />
+<string id="2195" text="选择图像(&amp;H)" />
+<string id="16640" text="点击此处获得更多!\n点击这里" />
+<string id="32773" text="感谢您订购福昕软件产品!\n订购" />
+<string id="32774" text="访问福昕软件主页." />
+<string id="32775" text="从福昕软件网站上获得支持." />
+<string id="32776" text="显示 PDF 文档属性\n属性" />
+<string id="32777" text="第一页\n第一页" />
+<string id="32778" text="上一页\n上一页" />
+<string id="32779" text="下一页\n下一页" />
+<string id="32780" text="最后一页\n最后一页" />
+<string id="32781" text="显示跳至页面对话框" />
+<string id="32782" text="显示/隐藏书签\n书签" />
+<string id="32783" text="全屏\n全屏" />
+<string id="32784" text="手形工具\n手形" />
+<string id="32785" text="缩小工具\n缩小" />
+<string id="32786" text="放大工具\n放大" />
+<string id="32787" text="放大\n 放大" />
+<string id="32788" text="缩小\n缩小" />
+<string id="32789" text="缩放到\n缩放到" />
+<string id="32790" text="实际大小\n实际大小" />
+<string id="32791" text="适合页面\n适合页面" />
+<string id="32792" text="适合宽度\n 适合宽度" />
+<string id="32793" text="文本查看器\n文本查看器" />
+<string id="32795" text="关闭所有文档\n关闭所有" />
+<string id="32796" text="文本查看器\n文本查看器" />
+<string id="32797" text="Funcy book\nFuncy book" />
+<string id="32802" text="改变文档字体\n字体" />
+<string id="32862" text="用其它的文件名保存当前文档\n另存为" />
+<string id="32898" text="显示或隐藏菜单栏\n停靠菜单栏" />
+<string id="32903" text="查找下一个\n查找下一个" />
+<string id="32925" text="单页\n单页" />
+<string id="32926" text="连续\n连续" />
+<string id="32930" text="显示/隐藏广告栏" />
+<string id="32932" text="用其它的文件名保存当前文档\n另存为" />
+<string id="32935" text="顺时针旋转\n顺时针旋转" />
+<string id="32938" text="对开\n对开" />
+<string id="32939" text="连续对开\n连续对开" />
+<string id="32941" text="逆时针旋转\n逆时针旋转" />
+<string id="32942" text="反向\n反向" />
+<string id="32969" text="设为默认的PDF阅读器\n默认" />
+<string id="32977" text="文本选择工具\n文本选择" />
+<string id="32985" text="选项\n选项" />
+<string id="32987" text="快照工具\n快照" />
+<string id="33042" text="显示/隐藏基本工具" />
+<string id="33043" text="显示/隐藏文件工具" />
+<string id="33044" text="显示/隐藏导航工具" />
+<string id="33045" text="显示/隐藏旋转视图" />
+<string id="33046" text="显示/隐藏缩放工具" />
+<string id="33048" text="重置全部工具栏" />
+<string id="33049" text="锁定全部工具栏" />
+<string id="33053" text="隐藏全部工具栏" />
+<string id="33055" text="发送当前文档\n邮件" />
+<string id="33060" text="粗体\n粗体" />
+<string id="33061" text="斜体\n斜体" />
+<string id="33064" text="文本查看器参数设置\n参数设置" />
+<string id="33065" text="显示/隐藏文本查看器工具" />
+<string id="33066" text="文本字体Text Font\n字体" />
+<string id="33069" text="颜色\n颜色" />
+<string id="33097" text="前一视图\n前一视图" />
+<string id="33098" text="后一视图\n后一视图" />
+<string id="33104" text="显示/隐藏帮助工具" />
+<string id="33111" text="将指定文件转换为PDF文件\n创建PDF文件" />
+<string id="33112" text="修改PDF文件\n修改PDF文件" />
+<string id="33116" text="检查更新...\n检查更新" />
+<string id="33117" text="创建或进入文档级脚本\n创建脚本" />
+<string id="33118" text="执行或调试 Javascript 代码\n执行 JS" />
+<string id="33120" text="将表单数据导入到文档\n导入表单" />
+<string id="33121" text="重置表单数据" />
+<string id="33122" text="设置计算次序" />
+<string id="33124" text="高亮\n高亮" />
+<string id="33132" text="将表单数据导出到表单数据文件（FPF）\n到FPF" />
+<string id="33133" text="将表单数据导出到邮件\n到电子邮件" />
+<string id="33134" text="显示/隐藏文档信息栏" />
+<string id="33135" text="总是隐藏文档信息栏" />
+<string id="33136" text="安装更新...\n安装更新" />
+<string id="33137" text="将标注数据导出到表单数据文件（FPF）\n到FPF" />
+<string id="33138" text="将标注数据导出到邮件\n到电子邮件" />
+<string id="33141" text="注册\n注册" />
+<string id="33146" text="连接到福昕在线支持\n在线技术支持" />
+<string id="33147" text="用其他文件名保存当前文档\n另存为副本" />
+<string id="33167" text="显示标尺" />
+<string id="33168" text="显示参考线" />
+<string id="33169" text="关闭当前窗口\n关闭" />
+<string id="33170" text="打开高级搜索" />
+<string id="33171" text="自动滚动" />
+<string id="33174" text="免费体验\n免费体验" />
+<string id="33175" text="更多工具..." />
+<string id="33179" text="显示或隐藏导航面板按钮" />
+<string id="33188" text="关闭当前标签前面的全部标签" />
+<string id="33189" text="关闭当前标签后面的全部标签" />
+<string id="33190" text="打印当前高亮的标签页" />
+<string id="57344" text="福昕阅读器" />
+<string id="57345" text="就绪" />
+<string id="57600" text="新建文档\n新建" />
+<string id="57601" text="打开已存在的文档\n打开" />
+<string id="57602" text="关闭当前文档\n关闭" />
+<string id="57603" text="保存当前文档\n保存" />
+<string id="57604" text="用其它的文件名保存当前文档\n另存为" />
+<string id="57605" text="改变打印选项\n页面设置" />
+<string id="57606" text="改变打印机和打印参数\n打印设置" />
+<string id="57607" text="打印当前文档\n打印" />
+<string id="57609" text="显示全部页\n打印预览" />
+<string id="57616" text="打开此文档" />
+<string id="57617" text="打开此文档" />
+<string id="57618" text="打开此文c" />
+<string id="57619" text="打开此文档" />
+<string id="57620" text="打开此文档" />
+<string id="57621" text="打开此文档" />
+<string id="57622" text="打开此文档" />
+<string id="57623" text="打开此文档" />
+<string id="57624" text="打开此文档" />
+<string id="57625" text="打开此文档" />
+<string id="57626" text="打开此文档" />
+<string id="57627" text="打开此文档" />
+<string id="57628" text="打开此文档" />
+<string id="57629" text="打开此文档" />
+<string id="57630" text="打开此文档" />
+<string id="57631" text="打开此文档" />
+<string id="57632" text="删除所选\n删除" />
+<string id="57633" text="删除所有\n删除所有" />
+<string id="57634" text="复制所选内容并放入剪贴板\n复制" />
+<string id="57635" text="剪切所选内容并放入剪贴板\n剪切" />
+<string id="57636" text="查找指定文本\n搜索" />
+<string id="57637" text="插入剪切板内容\n粘贴" />
+<string id="57640" text="重复最后操作\n重复" />
+<string id="57641" text="文本替换\n文本替换" />
+<string id="57642" text="选择整个文本\n全选" />
+<string id="57643" text="撤消最后操作\n撤消" />
+<string id="57644" text="重做被撤消的上一操作\n重做" />
+<string id="57648" text="为当前文档打开另一窗口\n新窗口" />
+<string id="57649" text="在窗口底部排列图标\n排列图标" />
+<string id="57650" text="重排窗口使之层叠\n层叠窗口" />
+<string id="57651" text="将窗口排为重叠的平铺形式\n平铺窗口" />
+<string id="57652" text="将窗口排为不重叠的平铺形式\n平铺窗口" />
+<string id="57653" text="拆分当前窗体\n拆分" />
+<string id="57664" text="显示程序信息，版本号和版权信息\n 关于" />
+<string id="57665" text="退出程序并提示保存文档\n退出" />
+<string id="57680" text="切换到下一视窗框\n下一视窗框" />
+<string id="57681" text="切换到前一视窗框\n前一视窗框" />
+<string id="59136" text="EXT" />
+<string id="59137" text="CAP" />
+<string id="59138" text="NUM" />
+<string id="59139" text="SCRL" />
+<string id="59140" text="OVR" />
+<string id="59141" text="REC" />
+<string id="59392" text="显示或隐藏工具栏\n切换工具栏" />
+<string id="59393" text="显示或隐藏状态栏\n切换状态栏" />
+<string id="61184" text="改变窗口大小" />
+<string id="61185" text="改变窗口位置" />
+<string id="61186" text="最小化到图标" />
+<string id="61187" text="扩大窗口到最大化" />
+<string id="61188" text="切换到下一个文档窗口" />
+<string id="61189" text="切换到上一个文档窗口" />
+<string id="61190" text="关闭当前打开的窗口并提示保存文档" />
+<string id="61202" text="还原窗口到标准大小" />
+<string id="61203" text="激活任务列表" />
+<string id="61215" text="激活该窗口" />
+<string id="61445" text="关闭打印预览模式\n取消预览" />
+<string id="61446" text="最小化到系统托盘" />
+<string id="61447" text="授权给:" />
+<string id="61448" text="用户" />
+<string id="61449" text="用户" />
+<string id="61450" text="序列号:" />
+<string id="61451" text="授权信息:" />
+<string id="61452" text="该试用版只能保存/nPDF页数(最多为10页)的前半部分。\n如果您想要购买，请写信至 sales@foxitsoftware\n.com 或访问 http://www.foxitsoftware.com 在线订购。" />
+<string id="61453" text="该试用版只能保存/nPDF页数(最多为10页)的前半部分。\n如果您想要购买，请写信至 sales@foxitsoftware\n.com 或访问 http://www.foxitsoftware.com 在线订购。" />
+<string id="61454" text="打印机名无效。" />
+<string id="61455" text="无法获得打印机的信息。" />
+<string id="61456" text="添加打印机失败！" />
+<string id="61458" text="无法打开PDF文档！" />
+<string id="61459" text="请选择打印范围" />
+<string id="61460" text="不能打开文件。\n文件没有找到。" />
+<string id="61462" text="获取字体错误。" />
+<string id="61463" text="请输入的值是介于 %d 和 %d 之间。" />
+<string id="61464" text="基本工具" />
+<string id="61465" text="注释工具" />
+<string id="61466" text="表单工具" />
+<string id="61467" text="图形标注工具" />
+<string id="61468" text="文本工具" />
+<string id="61469" text="链接工具" />
+<string id="61470" text="测量工具" />
+<string id="61471" text="多媒体工具" />
+<string id="61472" text="高级编辑工具" />
+<string id="61473" text="附件工具" />
+<string id="61474" text="标注工具" />
+<string id="61475" text="绘图" />
+<string id="61476" text="福昕PDF编辑工具" />
+<string id="61477" text="福昕PDF创建工具" />
+<string id="61478" text="点击这里获取更多关于福昕移动平台上的阅读器。" />
+<string id="61479" text="东亚语言支持" />
+<string id="61480" text="JPEG2000 and JBIG2解码器" />
+<string id="61481" text="使用方法:\n\nFoxitReader [-Register] | [-NoRegister] [ PDF filename [-ps &lt;Password&gt;] [-n &lt;Page Number&gt;] \n\n	   [-ImportFDF &lt;FDF filename&gt;] | [/p] | [/t &lt;Printer&gt;]  ]\n\n" />
+<string id="61482" text="-Register\t\t设置福昕阅读器为默认的PDF文件打开软件。\n" />
+<string id="61483" text="-NoRegister\t\t打开福昕阅读器，但是不设置为默认的PDF文件打开软件。\n" />
+<string id="61484" text="-n &lt;页码&gt;\t\t指定当前要显示的页。\n" />
+<string id="61485" text="-ImportFDF &lt;FDF文件名&gt;\t从指定的FDF数据文件导入表单数据。\n" />
+<string id="61486" text="/p &lt;PDF文件名&gt;\t\t使用默认的打印机打印指定文件。\n" />
+<string id="61487" text="/t &lt;PDF文件名&gt; &lt;打印机&gt;\t使用指定的打印机打印指定文件。\n" />
+<string id="61488" text="文件" />
+<string id="61489" text="GDI+模块" />
+<string id="61490" text="语言拼写检查" />
+<string id="61491" text="注释" />
+<string id="61492" text="文本查看器" />
+<string id="61493" text="商用表单填充" />
+<string id="61494" text="表单设计器" />
+<string id="61495" text="英寸" />
+<string id="61497" text="所有文件" />
+<string id="61498" text="文本文件" />
+<string id="61499" text="打字机工具" />
+<string id="61500" text="安全设定工具" />
+<string id="61501" text="图章工具" />
+<string id="61946" text="表单数据文件" />
+<string id="61947" text="输入无效, 请重新输入！" />
+<string id="61948" text="无法获取打印机的DC！" />
+<string id="61949" text="字体名" />
+<string id="61950" text="子类型" />
+<string id="61951" text="编码" />
+<string id="61952" text="基本字体" />
+<string id="61953" text="嵌入" />
+<string id="61954" text="正确" />
+<string id="61955" text="错误" />
+<string id="61956" text="-ps &lt;Password&gt;			输入文档密码\n" />
+<string id="61957" text="正在尝试使用全屏模式打开此文档，这可能会超出您的屏幕范围。在此模式下，可能会出现一些看似其它应用程序的文档，包括一些请求输入您个人信息的应用程序。您希望自动使用全屏模式打开此文档吗？\n" />
+<string id="61958" text="全屏" />
+<string id="61959" text="说明" />
+<string id="61960" text="字体" />
+<string id="61961" text="书签" />
+<string id="61962" text="域值需求" />
+<string id="61963" text="域 &quot;%s&quot;为空，请先填写域再继续当前操作。" />
+<string id="61964" text="执行状态" />
+<string id="61965" text="请求成功执行！" />
+<string id="61966" text="请求未被执行！\n\n请检查您的设置或联系系统管理员查证。" />
+<string id="61967" text="打开文档时发生错误。已经达到打开文件上限，请先关闭一些再打开或打印。\n" />
+<string id="61968" text="显示/隐藏" />
+<string id="61969" text="对不起，禁止保存文档。\n但是您能通过点击高级菜单的相应功能来导出所有修改。\n是否关闭？\n" />
+<string id="61970" text="生成许可文件失败。失败的原因可能是一下情况之一:\n\n1. 福昕阅读器目录的许可文件可能是只读的。\n2. 当前账户不被允许修改福昕阅读器目录。\n\n请查看文件权限和操作许可后再试。\n" />
+<string id="61971" text="点击这里在线购买 Foxit SDK ActiveX，来创建属于您自己的 PDF 阅读器！" />
+<string id="61972" text="点击这里随心所欲的排版您的 PDF 文件！" />
+<string id="61973" text="请输入一个 0—%d 之间的数！" />
+<string id="61974" text="不支持所选文件。" />
+<string id="61975" text="不能找到该文件" />
+<string id="61976" text="无播放器可以用来播放该剪辑。" />
+<string id="61977" text="由于你的权限设定不能播放这个媒体片段" />
+<string id="61978" text="更多..." />
+<string id="61979" text="显示导航面板(&amp;H)" />
+<string id="61980" text="隐藏导航面板(&amp;H)" />
+<string id="61981" text="请选择文件夹..." />
+<string id="61982" text="厘米" />
+<string id="61983" text="点" />
+<string id="61984" text="pc" />
+<string id="61985" text="像素" />
+<string id="61986" text="向左滚动" />
+<string id="61987" text="滚动至右边" />
+<string id="61988" text="列出全部标签" />
+<string id="61989" text="关闭" />
+<string id="61990" text="点击这里随时索引和查找 PDF 文档！" />
+<string id="61991" text="点击这里立即享受在移动设备上阅读PDF文件！" />
+<string id="61992" text="点击这里访问和共享你的文档！" />
+<string id="61993" text="搜索" />
+<string id="61994" text="被请求的页面范围是空的，请输入一个有效的范围值。" />
+<string id="61995" text="请输入有效范围。" />
+<string id="61997" text="查找工具" />
+<string id="61998" text="属性工具" />
+<string id="61999" text="注释" />
+<string id="62000" text="JavaScript" />
+<string id="62001" text="格式工具" />
+<string id="62002" text="Firefox正在被使用，请关闭它然后重试。" />
+<string id="62003" text="打开PDF文件" />
+<string id="62004" text="单击来打开PDF文件" />
+<string id="62005" text="在线内容管理系统" />
+<string id="62006" text="在线存储，共享，协作文件。" />
+<string id="62007" text="你真的要打印%ld份吗?" />
+<string id="9500" text="自由文本工具" />
+<string id="9501" text="打字机工具" />
+<string id="9502" text="打字机工具" />
+<string id="9503" text="打字机工具" />
+<string id="9504" text="打字机" />
+<string id="9505" text="标注工具" />
+<string id="9506" text="标注工具" />
+<string id="9507" text="标注工具" />
+<string id="9508" text="标注" />
+<string id="9509" text="文本框工具" />
+<string id="9510" text="文本框工具" />
+<string id="9511" text="文本框工具" />
+<string id="9512" text="文本框" />
+<string id="21000" text="关闭" />
+<string id="21001" text="该层已被关闭，因为它的父层是关闭的。" />
+<string id="21002" text="设定为开启时可见" />
+<string id="21003" text="从未可见" />
+<string id="21004" text="总是显示" />
+<string id="21005" text="当可见时打印" />
+<string id="21006" text="绝不打印" />
+<string id="21007" text="总是打印" />
+<string id="21008" text="当可见时导出" />
+<string id="21009" text="绝不导出" />
+<string id="21010" text="总是导出" />
+<string id="21011" text="选项" />
+<string id="21017" text="层" />
+<string id="1" text="四边形链接工具" />
+<string id="2" text="矩形链接工具" />
+<string id="3" text="在当前的PDF文档中枚举所有命名的位置。 \n它可能需要您几分钟时间，请稍候..." />
+<string id="4" text="当前文档里没有有效的命名位置！请选择其他选项。" />
+<string id="5" text="链接工具" />
+<string id="6" text="矩形链接工具" />
+<string id="7" text="四边形链接工具" />
+<string id="8" text="创建一个矩形链接注释" />
+<string id="9" text="创建一个四边形链接注释" />
+<string id="19012" text="显微镜工具" />
+<string id="19013" text="显微镜工具" />
+<string id="19014" text="显微镜工具" />
+<string id="19015" text="放大镜工具" />
+<string id="19016" text="放大镜工具" />
+<string id="19017" text="放大镜工具" />
+<string id="13000" text="距离工具" />
+<string id="13001" text="周长工具" />
+<string id="13002" text="面积工具" />
+<string id="13003" text="距离工具" />
+<string id="13004" text="周长工具" />
+<string id="13005" text="面积工具" />
+<string id="13006" text="距离工具" />
+<string id="13007" text="周长工具" />
+<string id="13008" text="面积工具" />
+<string id="13011" text="距离" />
+<string id="13012" text="周长" />
+<string id="13013" text="面积" />
+<string id="13014" text="平方" />
+<string id="13017" text="距离测量" />
+<string id="13018" text="周长测量" />
+<string id="13019" text="面积测量" />
+<string id="13021" text="面积:" />
+<string id="13022" text="周长:" />
+<string id="14000" text="所有的图像文件|*.bmp;*.dib;*.jpg;*.jpeg;*.jpe;*.ico;*.gif;*.wmf;*.emf||" />
+<string id="14001" text="图像工具" />
+<string id="14002" text="图像工具" />
+<string id="14003" text="图像工具" />
+<string id="14004" text="0\n90\n180\n270" />
+<string id="14005" text="总是\n
+绝不\n
+图标太大\n
+图标太小" />
+<string id="14006" text="成比例\n
+不成比例" />
+<string id="14007" text="边框\n无边框" />
+<string id="14008" text="细\n中\n粗\n无边框" />
+<string id="14009" text="实线\n虚线" />
+<string id="14010" text="外观" />
+<string id="14011" text="设置" />
+<string id="14012" text="多媒体工具" />
+<string id="14013" text="屏幕" />
+<string id="14014" text="影像工具" />
+<string id="14015" text="影像工具" />
+<string id="14016" text="影像工具" />
+<string id="14017" text="声音工具" />
+<string id="14018" text="声音工具" />
+<string id="14019" text="声音工具" />
+<string id="14020" text="Windows 内建播放器 (*.avi,*.mp2,*.mpa,*.mpe,*.mpeg,*.mpg,*.mpv2)|*.avi;*.mp2;*.mpa;*.mpe;*.mpeg;*.mpg;*.mpv2|" />
+<string id="14021" text="RealOne Player (*.asf,*.avi,*.mpeg,*.mpg,*.mp4,*.mpg4,*.mpv,*.mpv2,*.rjs,*.rm,*.rmj,*.rmp,*.rms,*.rmvb,*.rp,*.rt,*.smi)|*.asf;*.avi;*.mpeg;*.mp4;*.mpg4;*.mpg;*.mpv;*.mpv2;*.rjs;*.rm;*.rmj;*.rmp;*.rms;*.rmvb;*.rp;*.rt;*.smi|" />
+<string id="14022" text="Windows Media Player (*.asf,*.asx,*.avi,*.ivf,*.mp2,*.mpa,*.mpe,*.mpeg,*.mpg,*.mpv2,*.wm,*.wmp,*.wmv,*.wmx,*.wvx)|*.asf;*.asx;*.avi;*.ivf;*.mp2;*.mpa;*.mpe;*.mpeg;*.mpg;*.mpv2;*.wm;*.wmp;*.wmv;*.wmx;*.wvx|" />
+<string id="14023" text="QuickTime (*.avi,*.dif,*.dv,*.flc,*.mov,*.mp4,*.mpeg,*.mpg,*.mpg4,*.mpv,*.qt)|*.avi;*.dif;*.dv;*.flc;*.mov;*.mp4;*.mpeg;*.mpg;*.mpg4;*.mpv;*.qt|" />
+<string id="14024" text="Flash Player (*.spl,*.swf)|*.spl;*.swf|" />
+<string id="14025" text="常见格式 (*.avi,*.mpeg,*.mpg,*.asf,*.rm,*.rmvb,*.wmv,*.wmx,*.mov,*.mp4,*.mpg4,*.swf)|*.avi;*.mpeg;*.mpg;*.asf;*.mpg4;*.rm;*.rmvb;*.wmv;*.wmx;*.mov;*.mp4;*.swf|" />
+<string id="14026" text="所有文件 (*.*)|*.*|" />
+<string id="14027" text="Windows 内建播放器 (*.aif,*.aifc,*.aiff,*.au,*.m3u,*.mid,*.mp3,*.rmi,*.snd,*.wav)|*.aif;*.aifc;*.aiff;*.au;*.m3u;*.mid;*.mp3;*.rmi;*.snd;*.wav|" />
+<string id="14030" text="QuickTime (*.aif,*.aifc,*.aiff,*.au,*.cdda,*.gsm,*.kar,*.m3u,*.m4a,*.m4b,*.m4p,*.mid,*.midi,*.mp3,*.mp4,*.mpg4,*.qcp,*.rtsp,*.sdp,*.smi)|*.aif;*.aifc;*.aiff;*.au;*.cdda;*.gsm;*.kar;*.m3u;*.m4a;*.m4b;*.m4p;*.mid;*.midi;*.mp3;*.mp4;*.mpg4;*.qcp;*.rtsp;*.sdp;*.smi|" />
+<string id="14032" text="常见格式 (*.avi,*.mpeg,*.mpg,*.asf,*.wmv,*.wmx,*.swf)|*.avi;*.mpeg;*.mpg;*.asf;*.wmv;*.wmx;*.swf|" />
+<string id="14033" text="常见格式 (*.avi,*.mpeg,*.mpg,*.asf,*.wmv,*.wmx,*.mov,*.mp4,*.swf)|*.avi;*.mpeg;*.mpg;*.asf;*.wmv;*.wmx;*.mov;*.mp4;*.swf|" />
+<string id="14035" text="常见格式 (*.aif,*.mp3,*.wav)|*.aif;*.mp3;*.wav|" />
+<string id="14036" text="常见格式 (*.aif,*.mp3,*.wav,*.ra,*.ram,*.rm,*.rmvb,*.mp4,*.mpg4)|*.aif;*.mp3;*.wav;*.ra;*.ram;*.rm;*.rmvb;*.mp4;*.mpg4|" />
+<string id="14037" text="常见格式 (*.aif,*.mp3,*.wav,*.m4a,*.m4b,*.m4p,*.mp4,*.mpg4)|*.aif;*.mp3;*.wav;*.m4a;*.m4b;*.m4p;*.mp4;*.mpg4|" />
+<string id="14038" text="application/futuresplash\napplication/x-shockwave-flash\nvideo/avi\nvideo/mpeg\nvideo/msvideo\nvideo/x-ivf\nvideo/x-mpeg\nvideo/x-ms-asf\nvideo/x-ms-asx\nvideo/x-ms-wm\nvideo/x-ms-wmp\nvideo/x-ms-wmv\nvideo/x-ms-wmx\nvideo/x-ms-wvx\nvideo/x-msvideo\nvideo/x-mpg\nvideo/mpg" />
+<string id="14039" text="application/sdp\napplication/smil\napplication/x-rtsp\nvideo/quicktime\nvideo/flc\nvideo/x-dv" />
+<string id="14040" text="audio/aiff\naudio/basic\naudio/mid\naudio/midi\naudio/mp3\naudio/mpeg\naudio/mpeg3\naudio/mpegurl\naudio/wav\naudio/x-aiff\naudio/x-midi\naudio/x-mp3\naudio/x-mpeg\naudio/x-mpeg3\naudio/x-mpegurl\naudio/x-wav\naudio/x-ms-wax\naudio/x-ms-wma" />
+<string id="14041" text="application/sdp\napplication/smil\napplication/x-rtsp\naudio/vnd.qcelp\naudio/x-gsm\naudio/x-m4a\naudio/x-m4b\naudio/x-m4p\n" />
+<string id="14042" text="audio/x-pn-realaudio\naudio/scpls\naudio/vnd.rn-realaudio\n" />
+<string id="14043" text="application/vnd.rn-realmedia\napplication/vnd.rn-realmedia-secure\napplication/vnd.rn-realsystem-rjs\napplication/vnd.rn-realsystem-mj\napplication/vnd.rn-rn_music_package\napplication/vnd.rn-realsystem-rp\napplication/vnd.rn-realsystem-rt" />
+<string id="14044" text="使用文件..." />
+<string id="14045" text="使用 URL..." />
+<string id="14046" text="通过复制一个已存在的注释..." />
+<string id="14047" text="节目设置" />
+<string id="14048" text="鼠标弹起\n页面可视\n页面隐藏\n页面进入\n页面退出\n鼠标按下\n鼠标进入\n鼠标离开\n获得焦点\n失去焦点" />
+<string id="14049" text="从不\n若文档属性允许内容提取\n若文档属性允许内容提取以用于辅助工具\n总是" />
+<string id="14050" text="按标准内容长度\n一旦激活永远保持" />
+<string id="14051" text="文档中\n隐藏但是作为声音提示\n浮动窗口\n全屏" />
+<string id="14052" text="不允许用户调整窗口大小\n允许用户调整窗口大小，但必须保持原始的窗口比例\n允许用户调整窗口大小" />
+<string id="14053" text="左上\n中上\n右上\n左中\n中\n右中\n左下\n中下\n右下" />
+<string id="14054" text="文档窗口\n应用程序窗口\n虚拟桌面\n文档监视器" />
+<string id="14055" text="仍然播放\n移动窗口到屏幕上\n不播放" />
+<string id="14056" text="常见格式 (*.avi,*.mpeg,*.mpg,*.asf,*.wmv,*.wmx,*.swf,*.aif,*.mp3,*.wav)|*.avi;*.mpeg;*.mpg;*.asf;*.wmv;*.wmx;*.swf;*.aif;*.mp3;*.wav|" />
+<string id="14057" text="常见格式 (*.aif,*.avi,*.m4a,*.m4b,*.m4p,*.mov,*.mp3,*.mp4,*.mpg4,*.mpeg,*.mpg,*.wav,*.asf,*.rm,*.rmvb,*.wmv,*.wmx,*.swf,*.ra,*.ram,*.rm,*.rmvb)|*.avi;*.mpeg;*.mpg;*.asf;*.rm;*.rmvb;*.wmv;*.wmx;*.mov;*.mp4;*.swf;*.aif;*.mp3;*.wav;*.ra;*.ram;*.rm;*.rmvb;*.m4a;*.m4b;*.m4p;*.mpg4|" />
+<string id="14058" text="常见格式 (*.avi,*.mpeg,*.mpg,*.asf,*.wmv,*.wmx,*.mov,*.mp4,*.swf,*.aif,*.mp3,*.wav,*.m4a,*.m4b,*.m4p,*.mpg4)|*.avi;*.mpeg;*.mpg;*.asf;*.wmv;*.wmx;*.mov;*.mp4;*.swf;*.aif;*.mp3;*.wav;*.m4a;*.m4b;*.m4p;*.mpg4|" />
+<string id="14059" text="常见格式 (*.avi,*.mpeg,*.mpg,*.asf,*.rm,*.rmvb,*.wmv,*.wmx,*.mp4,*.mpg4,*.swf)|*.avi;*.mpeg;*.mpg;*.asf;*.rm;*.rmvb;*.wmv;*.wmx;*.mp4;*.mpg4;*.swf|" />
+<string id="14060" text="常见格式 (*.avi,*.mpeg,*.mpg,*.asf,*.rm,*.rmvb,*.wmv,*.wmx,*.swf,*.aif,*.mp3,*.wav,*.ra,*.ram,*.rm,*.rmvb,*.mp4,*.mpg4)|*.avi;*.mpeg;*.mpg;*.asf;*.rm;*.rmvb;*.wmv;*.wmx;*.swf;*.aif;*.mp3;*.wav;*.ra;*.ram;*.rm;*.rmvb;*.mp4;*.mpg4|" />
+<string id="14061" text="Windows 内建播放器 (*.avi,*.mp2,*.mpa,*.mpe,*.mpeg,*.mpg,*.mpv2,*.aif,*.aifc,*.aiff,*.au,*.m3u,*.mid,*.mp3,*.rmi,*.snd,*.wav)|*.avi;*.mp2;*.mpa;*.mpe;*.mpeg;*.mpg;*.mpv2;*.aif;*.aifc;*.aiff;*.au;*.m3u;*.mid;*.mp3;*.rmi;*.snd;*.wav|" />
+<string id="14062" text="RealOne Player (*.asf,*.avi,*.mpeg,*.mpg,*.mp4,*.mpg4,*.mpv,*.mpv2,*.rjs,*.rm,*.rmj,*.rmp,*.rms,*.rmvb,*.rp,*.rt,*.smi,*.aif,*.aifc,*.aiff,*.au,*.m3u,*.pls,*.ra,*.ram,*.rjs,*.rm,*.rmj,*.rmm,*.rmp,*.rms,*.wav)|*.asf;*.avi;*.mpeg;*.mpg;*.mpv;*.mpv2;*.rjs;*.rm;*.rmj;*.rmp;*.rms;*.rmvb;*.rp;*.rt;*.smi;*.aif;*.aifc;*.aiff;*.au;*.m3u;*." />
+<string id="14063" text="Windows Media Player (*.asf,*.asx,*.avi,*.ivf,*.mp2,*.mpa,*.mpe,*.mpeg,*.mpg,*.mpv2,*.wm,*.wmp,*.wmv,*.wmx,*.wvx,*.aif,*.aifc,*.aiff,*.au,*.m3u,*.mid,*.midi,*.mp3,*.rmi,*.snd,*.wav,*.wax,*.wma)|*.asf;*.asx;*.avi;*.ivf;*.mp2;*.mpa;*.mpe;*.mpeg;*.mpg;*.mpv2;*.wm;*.wmp;*.wmv;*.wmx;*.wvx;*.aif;*.aifc;*.aiff;*.au;*." />
+<string id="14064" text="多媒体格式 (*.avi,*.dif,*.dv,*.flc,*.mov,*.mp4,*.mpeg,*.mpg,*.mpg4,*.mpv,*.qt,*.aif,*.aifc,*.aiff,*.au,*.cdda,*.gsm,*.kar,*.m3u,*.m4a,*.m4b,*.m4p,*.mid,*.midi,*.mp3,*.mp4,*.mpg4,*.qcp,*.rtsp,*.sdp,*.smi)|*.avi;*.dif;*.dv;*.flc;*.mov;*.mp4;*.mpeg;*.mpg;*.mpg4;*.mpv;*.qt;*.aif;*.aifc;*.aiff;*.au;*.cdda;*.gsm;*.kar;*.m3u;*.m4a;*.m4b;*.m4p;*.mid;*.midi;*.mp3;*.mp4;*.mpg4;*.qcp;*.rtsp;*.sdp;*.smi|" />
+<string id="14090" text="Windows Media Player (*.aif,*.aifc,*.aiff,*.au,*.m3u,*.mid,*.midi,*.mp3,*.rmi,*.snd,*.wav,*.wax,*.wma)|*.aif;*.aifc;*.aiff;*.au;*.m3u;*.mid;*.midi;*.mp3;*.rmi;*.snd;*.wav;*.wax;*.wma|" />
+<string id="14091" text="常见格式 (*.aif,*.mp3,*.wav,*.ra,*.ram,*.rm,*.rmvb,*.m4a,*.m4b,*.m4p,*.mp4,*.mpg4)|*.aif;*.mp3;*.wav;*.ra;*.ram;*.rm;*.rmvb;*.m4a;*.m4b;*.m4p;*.mp4;*.mpg4|" />
+<string id="14092" text="RealOne Player (*.aif,*.aifc,*.aiff,*.au,*.m3u,*.pls,*.ra,*.ram,*.rjs,*.rm,*.rmj,*.rmm,*.rmp,*.rms,*.wav,mp4,*.mpg4)|*.aif;*.aifc;*.aiff;*.au;*.m3u;*.pls;*.ra;*.ram;*.rjs;*.rm;*.rmj;*.rmm;*.rmp;*.rms;*.wav;*.mp4;*.mpg4|" />
+<string id="14095" text="名称" />
+<string id="14096" text="状态" />
+<string id="14157" text="Windows Media Player" />
+<string id="14158" text="Windows 内建播放器" />
+<string id="14159" text="Flash Player" />
+<string id="14160" text="RealOne Player" />
+<string id="14161" text="QuickTime" />
+<string id="14162" text="必须\n首选\n禁止" />
+<string id="14163" text="常规" />
+<string id="14164" text="重播" />
+<string id="14165" text="AVI 影片 (*.avi)|*.avi|" />
+<string id="14166" text="QuickTime 影片 (*.mov)|*.mov|" />
+<string id="14167" text="WAV 音频 (*.wav,*.wave)|*.wav;*.wave|" />
+<string id="14168" text="AIFF 音频 (*.aif,*.aifc,*.aiff)|*aif;*.aifc;*.aiff|" />
+<string id="14169" text="所有支持格式|*.avi;*.mov;*.wav;*.wave;*.aif;*.aifc;*.aiff|" />
+<string id="14170" text="单次\n循环" />
+<string id="14171" text="点击这里选择内容类型。" />
+<string id="14172" text="音频录制工具" />
+<string id="14173" text="所有支持格式|*.wav;*.wave;*.aif;*.aifc;*.aiff|" />
+<string id="14177" text="不支持所选文件类型。" />
+<string id="14178" text="无播放器可以用来播放该剪辑。" />
+<string id="14179" text="不能找到该文件。" />
+<string id="14180" text="所选择的文件类型不能支持，请重新选择可用文件。" />
+<string id="14181" text="仅仅可以导入未压缩的 WAV 和 AIFF。" />
+<string id="14182" text="请输入有效 URL。" />
+<string id="14183" text="必须从列表中选择有效内容类型。" />
+<string id="14184" text="由于你的权限设定不能播放这个媒体片段" />
+<string id="14185" text="图像捕获工具" />
+<string id="14186" text="捕获视频工具" />
+<string id="14187" text="没有捕获设备." />
+<string id="14188" text="所选择的文件类型不能支持，请重新选择可用文件。" />
+<string id="14189" text="输入的位置似乎不是一个URL地址，您想用它作为一个网址吗？" />
+<string id="14190" text="媒体设置" />
+<string id="14191" text="重播设置" />
+<string id="14192" text="重播位置" />
+<string id="14193" text="确定" />
+<string id="14194" text="取消" />
+<string id="28001" text="展开全部" />
+<string id="28002" text="全部折叠" />
+<string id="28003" text="下一个" />
+<string id="28004" text="上一个" />
+<string id="28005" text="按...排序" />
+<string id="28011" text="在面板中展开所有元素" />
+<string id="28012" text="在面板中折叠所有元素" />
+<string id="28013" text="下一个" />
+<string id="28014" text="前一个" />
+<string id="28015" text="改变注释排列方式" />
+<string id="28016" text="第%d页" />
+<string id="28017" text="这个文档没有内容." />
+<string id="28018" text="签名" />
+<string id="28019" text="接下来的签名区域没有被签名" />
+<string id="28020" text="以下人士通过数字签名方式签署了这份文件" />
+<string id="28021" text="签名 %s &lt;%s&gt;" />
+<string id="28022" text="签名有效:" />
+<string id="28023" text="已有之后对文件的变更" />
+<string id="28024" text="修改的文档没有改变" />
+<string id="28025" text="当前用户签名" />
+<string id="28034" text="打开" />
+<string id="28035" text="保存" />
+<string id="28036" text="添加" />
+<string id="28037" text="删除" />
+<string id="28038" text="编辑描述" />
+<string id="28039" text="设置" />
+<string id="28040" text="名称" />
+<string id="28041" text="描述" />
+<string id="28042" text="修改时间" />
+<string id="28043" text="大小" />
+<string id="28044" text="文档中的位置" />
+<string id="28045" text="未知" />
+<string id="28046" text="附件标签" />
+<string id="28047" text="附件被锁定，不能被删除" />
+<string id="28048" text="附件" />
+<string id="22200" text="页面" />
+<string id="26515" text="选项" />
+<string id="17105" text="快照" />
+<string id="17106" text="QuickTime (*.aif,*.aifc,*.aiff,*.au,*.cdda,*.gsm,*.kar,*.m3u,*,m3url,*.m4a,*.m4b,*.m4p,*.mdi,*.midi,*.mp3,*.mp4,*.mpg4,*.qcp,*.rtsp,*.sdp,*.smi)|*.aif;*.aifc;*.aiff;*.au;*.cdda;*.gsm;*.kar;*.m3u;*,m3url;*.m4a;*.m4b;*.m4p;*.mdi;*.midi;*.mp3;*.mp4;*.mpg4;*.qcp;*.rtsp" />
+<string id="4000" text="文本注释" />
+<string id="4001" text="文本" />
+<string id="4002" text="设置标注(&amp;S)" />
+<string id="4003" text="移除标注(&amp;R)" />
+<string id="4004" text="附注工具" />
+<string id="4005" text="注释类型" />
+<string id="4006" text="附注工具" />
+<string id="4007" text="创建注释标记" />
+<string id="4008" text="未知" />
+<string id="4009" text="评论" />
+<string id="4010" text="注册码" />
+<string id="4011" text="注释" />
+<string id="4012" text="帮助" />
+<string id="4013" text="新段落" />
+<string id="4014" text="段落" />
+<string id="4015" text="插入" />
+<string id="4016" text="附注工具" />
+<string id="4017" text="勾形" />
+<string id="4018" text="圆形" />
+<string id="4019" text="叉形" />
+<string id="4020" text="右箭头" />
+<string id="4021" text="右指向" />
+<string id="4022" text="星形" />
+<string id="4023" text="向上箭头" />
+<string id="4024" text="左上箭头" />
+<string id="5004" text="文本选择" />
+</Strings>
+</Reader>
