@@ -1,0 +1,40 @@
+注册机使用方法
+管理员身份运行
+打开SecureCRT.7.3.keygen.exe
+在Name中写
+diqixiazai
+Company中写
+闪电软件园 sd173.com
+点击Pctch
+选择安装目录中的两个启动exe
+pctch下载完毕
+然后打开SecureCRT.exe
+不管空白界面，先点下一步
+然后点左下角的输入证书信息
+然后根据提示输入注册机中的内容
+name和Company输入注册机中自带的
+一路下一步即可
+在打开SecureCRT.exe后选择第二个进入
+在Linux中，
+sudo apt-get install openssh-server
+/etc/init.d/ssh restart
+netstat -tlp
+查看是否有信息输出，如果有则代表ssh启动成功，可以在SecureCRT中连接了
+ifconfig查看linux的ip
+inet后的是ip
+在SecureCRT中输入连接的ip即可，其他默认选择不动
+修改字符集
+Options->Session Options...->Appearance->Character encoding->选择UTF-8->OK
+在linux中
+sudo apt-get install lrzsz
+在
+Options->Session Options...->X/Y/Zmodem->Upload
+D:\local\SecureCRT_local
+Download中
+D:\local\SecureCRT_far
+在D盘下创建这些目录
+以后要传到linux的文件先拷贝到local下，linux上传过来的文件都在far里
+如果要传给linux文件
+在SecureCRT中执行
+rz
+会弹出对话框选择Add即可
