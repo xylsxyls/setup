@@ -1,0 +1,18 @@
+
+
+v1.0
+MD5(128bit): F1C3BD620EEB98F090C585D7BDEBA9FF 
+通杀VA_X1641~2073，理论支持后续版本VA_X的破解。
+
+v1.1
+MD5(128bit): DB7F08EE1CA378FCE1C9761FCC09E34A 
+修复内存占用的问题（更新version.dll文件）
+
+v1.2
+MD5(128bit): FAB9D7A86D3E11E1D3003C5FCE00F5C6 
+支持右键菜单，查看VA_X安装路径，显示VA_X版本号。
+补丁文件继续支持 2074。
+
+
+PYG官方论坛
+Bbs.ChiNa.CoM 2015.08.13

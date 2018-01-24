@@ -1,0 +1,10 @@
+msvc2010 - %USERPROFILE%\AppData\Local\Microsoft\VisualStudio\10.0\Extensions\Whole Tomato Software\Visual Assist\...\
+msvc2012 - %USERPROFILE%\AppData\Local\Microsoft\VisualStudio\11.0\Extensions\...\
+msvc2013 - %USERPROFILE%\AppData\Local\Microsoft\VisualStudio\12.0\Extensions\...\
+msvc2015 - %USERPROFILE%\AppData\Local\Microsoft\VisualStudio\14.0\Extensions\...\
+
+don't care about "License: trial" status
+
+1. uninstall previous version
+2. install 2074
+3. copy and replace the VA_X.dll
